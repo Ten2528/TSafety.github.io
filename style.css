@@ -1,12 +1,12 @@
 *{
-background: color #ffffff; 
+background: color #365b6d; 
 }
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 header {
-    background-color: #365b6d;
+    background-color: #000000;
     color: rgb(77, 129, 194);
     padding: 20px 0;
 }
