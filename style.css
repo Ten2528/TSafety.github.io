@@ -1,12 +1,14 @@
 *{
-background: color #365b6d; 
+background: color #ffffff; 
 }
-body {
+{
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 header {
-    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #365b6d;
     color: rgb(77, 129, 194);
     padding: 20px 0;
 }
@@ -33,3 +35,4 @@ nav ul li a {
     color: #000000;
     font-weight: 600;
 }
+
