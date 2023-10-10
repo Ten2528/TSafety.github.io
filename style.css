@@ -3,6 +3,8 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
+
+/* CSS para el header */
 header {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -32,5 +34,13 @@ nav ul li a {
     text-decoration: none;
     color: #000000;
     font-weight: 600;
+}
+
+/* CSS para el home */
+.Home{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #365B6D;
+    color: #ffffff;
 }
 
