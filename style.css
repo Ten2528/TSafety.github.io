@@ -1,14 +1,12 @@
 *{
-background: color #ffffff; 
-}
-{
+    background: color #ffffff; 
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 header {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #365b6d;
+    background-color: #ffffff;
     color: rgb(77, 129, 194);
     padding: 20px 0;
 }
