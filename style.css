@@ -7,7 +7,7 @@ header {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #ffffff;
-    color: rgb(77, 129, 194);
+    color:#365B6D;
     padding: 20px 0;
 }
 .container {
