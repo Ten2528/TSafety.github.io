@@ -1,1 +1,4 @@
-body{background-color:(#365B6D);}
+*{
+    background: color #365B6D; 
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
