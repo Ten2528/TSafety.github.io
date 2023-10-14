@@ -56,5 +56,11 @@ body {
  align-items: center;
  justify-content: center;
  height: 100vh;
- background-image: url();
+ background-image: url(https://radatilly.gob.ar/medioambiente/wp-content/uploads/sites/9/2022/10/Intercambio-2.jpg);
+ background-size: cover;
+}
+
+.container-form {
+    max-width: 900;
+    border: solid thin rgb(62, 145, 138);
 }
