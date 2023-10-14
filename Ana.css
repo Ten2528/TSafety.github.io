@@ -61,6 +61,18 @@ body {
 }
 
 .container-form {
-    max-width: 900;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+    height: 500px;
+    max-width: 900px;
+    transition: all 1s ease;
+    margin: 10px;
     border: solid thin rgb(62, 145, 138);
+}
+
+.information{
+    width: 40%;
+    display: flex;
+    alig
 }
