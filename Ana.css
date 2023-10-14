@@ -44,3 +44,16 @@ nav ul li a {
     color: #ffffff;
     font-size: 300;
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
