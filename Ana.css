@@ -97,4 +97,6 @@ body {
 
 .info-childs input {
     background-color: transparent;
+    outline: none;
+    border: solid 2px #9191bd;
 }
