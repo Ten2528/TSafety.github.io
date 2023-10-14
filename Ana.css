@@ -87,8 +87,14 @@ body {
 
 .info-childs h2 {
   font-size: 2.5rem;
+  color: #333;
 }
 
 .info-childs p {
-    
+    margin: 15px 0;
+    color: #555;
+}
+
+.info-childs input {
+    background-color: transparent;
 }
