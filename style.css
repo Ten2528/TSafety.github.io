@@ -2,7 +2,11 @@
     background: color #ffffff; 
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
+    box-sizing: border-box;
 }
+h1{font-size: 3.5em;}
+p{font-size: 1.25em;}
+
 
 /* CSS para el header */
 header {
