@@ -6,6 +6,13 @@
 }
 h1{font-size: 3em;}
 p{font-size: 1.25em;}
+input{
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, o.5);
+    color: white;
+    background-color: #5271ff;
+}
 
 
 /* CSS para el header */
@@ -71,4 +78,8 @@ nav ul li a {
         height: 5rem;
         width: 17rem;
     }
+.nav{
+    font-size: medium;
+    background-color: #365B6D;
+}
 
