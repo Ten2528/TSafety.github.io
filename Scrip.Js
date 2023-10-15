@@ -5,4 +5,11 @@ const btnSignIn = document.getElementById("sign-in"),
 
 btnSignIn.addEventListener("click", e => {
     formRegister.classList.add("hide");
+    formLogin.classList.remove("hide")
+})
+
+
+btnSignIn.addEventListener("click", e => {
+    formRegister.classList.add("hide");
+    formLogin.classList.remove("hide")
 })
