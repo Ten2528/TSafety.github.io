@@ -28,6 +28,7 @@ nav ul li a {
     color: #000000;
     font-weight: 600;
 }
+
 Body{
     background-color: #365B6D;
     text-align: center;
@@ -35,13 +36,16 @@ Body{
 }
 h1{
     color: white;
-    width: 350px;
+    size: 100px;
     text-align: center;
+    margin-left: auto;
 }
 
 h4{
     color: white;
+    margin-left: auto;
     text-align: left;
+    size: 50px;
 
 }
 
