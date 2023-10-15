@@ -35,7 +35,7 @@ Body{
 }
 h1{
     color: white;
-    width: 100px;
+    width: 350px;
     text-align: center;
 }
 
@@ -45,4 +45,8 @@ h4{
 
 }
 
-im
+img{
+    width: 350px;
+    margin-left: 250px;
+    margin-top: 350px;
+}
