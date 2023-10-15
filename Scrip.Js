@@ -9,7 +9,7 @@ btnSignIn.addEventListener("click", e => {
 })
 
 
-btnSignIn.addEventListener("click", e => {
-    formRegister.classList.add("hide");
+btnSignup.addEventListener("click", e => {
+    formLogin.classList.add("hide");
     formLogin.classList.remove("hide")
 })

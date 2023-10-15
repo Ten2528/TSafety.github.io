@@ -13,7 +13,7 @@ input{
     color: white;
     background-color: #5271ff;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 input:hover{
     background-color:#5772EF;
