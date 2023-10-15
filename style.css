@@ -12,8 +12,12 @@ input{
     box-shadow:2px 2px 2px rgba(0, 0, 0, o.5);
     color: white;
     background-color: #5271ff;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
-
+input:hover{
+    background-color:#5772EF;
+}
 
 /* CSS para el header */
 header {
@@ -81,5 +85,6 @@ nav ul li a {
 .nav{
     font-size: medium;
     background-color: #365B6D;
+   
 }
 
