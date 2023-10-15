@@ -160,3 +160,24 @@ body {
         font-size: 12px;
     }
 }
+
+@media screen and (max-width:580px) {
+    html {
+        font-size: 10px;
+    }
+
+    .container-form{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .information {
+        width: 100px;
+        padding: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .information
+}
