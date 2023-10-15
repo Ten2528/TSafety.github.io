@@ -11,5 +11,5 @@ btnSignIn.addEventListener("click", e => {
 
 btnSignup.addEventListener("click", e => {
     formLogin.classList.add("hide");
-    formLogin.classList.remove("hide")
+    formRegister.classList.remove("hide")
 })
