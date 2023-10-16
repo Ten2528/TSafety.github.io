@@ -109,7 +109,11 @@ nav ul li a {
         height: 5rem;
         width: auto;
     }
-
+.community1{
+    font-size: medium;
+    background-color: #365B6D;
+    
+}
 
 .nav{
     font-size: medium;
