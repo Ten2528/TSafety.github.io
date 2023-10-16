@@ -81,8 +81,30 @@ nav ul li a {
         padding-top: 15%;
         height: 5rem;
     }
-    
-
+    .card1{
+        background-image: url(Imagenes/Oddie.png);
+        background-size: cover;
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 15%;
+        height: 5rem;
+    }
+    .card2{
+        background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192116.png);
+        background-size: cover;
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 15%;
+        height: 5rem;
+    }
+    .card3{
+        background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192100.png);
+        background-size: cover;
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 15%;
+        height: 5rem;
+    }
 
 
 .nav{
