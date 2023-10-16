@@ -74,45 +74,18 @@ nav ul li a {
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
     }
     .card{
-        background-image: url(Captura de pantalla 2023-10-13 192038.png);
+        background-image: url(Capturadepantalla2023-10-13192038.png);
         background-size: cover;
         border: 1px solid black;
         text-align: center;
         padding-top: 15%;
         height: 5rem;
-        width: 17rem;
+    
     }
-    .card_a{
-        background-image: url(Captura de pantalla 2023-10-13 192038.png);
-        background-size: cover;
-        border: 1px solid black;
-        text-align: center;
-        padding-top: 15%;
-        height: 5rem;
-        width: 17rem;
-    }
-    .card_b{
-        background-image: url(Oddie.png);
-        background-size: cover;
-        border: 1px solid black;
-        text-align: center;
-        padding-top: 15%;
-        height: 5rem;
-        width: 17rem;
-    }
-    .card_c{
-        background-image: url(Captura de pantalla 2023-10-13 192116.png);
-        background-size: cover;
-        border: 1px solid black;
-        text-align: center;
-        padding-top 15%;
-        height: 5rem;
-        width: 17rem;
-    }
+
+
 
 .nav{
     font-size: medium;
     background-color: #365B6D;
-   
 }
-
