@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 h1{font-size: 2em;}
-p{font-size: 1.25em;}
+p{font-size: 1em;}
 input{
     font-size: 1em;
     font-weight: bold;
@@ -112,7 +112,7 @@ nav ul li a {
 .community1{
     font-size: medium;
     background-color: #365B6D;
-    
+
 }
 
 .nav{
