@@ -80,6 +80,7 @@ nav ul li a {
         text-align: center;
         padding-top: 15%;
         height: 5rem;
+        width: auto;
     }
     .card1{
         background-image: url(Imagenes/Oddie.png);
@@ -88,6 +89,7 @@ nav ul li a {
         text-align: center;
         padding-top: 15%;
         height: 5rem;
+        width: auto;
     }
     .card2{
         background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192116.png);
@@ -96,6 +98,7 @@ nav ul li a {
         text-align: center;
         padding-top: 15%;
         height: 5rem;
+        width: auto;
     }
     .card3{
         background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192100.png);
@@ -104,6 +107,7 @@ nav ul li a {
         text-align: center;
         padding-top: 15%;
         height: 5rem;
+        width: auto;
     }
 
 
