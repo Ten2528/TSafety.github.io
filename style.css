@@ -113,10 +113,11 @@ nav ul li a {
     font-size: medium;
     background-color: #365B6D;
     text-align: justify;
-
-
+    color: #365B6D;
 }
-
+.p{
+    font-size: medium;
+}
 .nav{
     font-size: medium;
     background-color: #365B6D;
