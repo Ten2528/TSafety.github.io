@@ -283,9 +283,15 @@ ul li {
     font-size: small;
 }
 /*Css de la segunda pagina de*/
-.cards{
+.grid{
     display:grid
 }
+.grid div{
+    background: #ffffff;
+    padding: 1em;
 
-
+}
+.grid div:hover{
+    border: 1px solid #5772EF;
+}
 
