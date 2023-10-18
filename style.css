@@ -282,10 +282,10 @@ ul li {
     background: #365B6D;
     font-size: small;
 }
-/*Css de la segunda pagina de*/
+/*Css de la segunda pagina de home*/
 .grid{
     display:grid;
-    grid-template-columns: 33,3 33,3 33,3;
+    grid-template-columns: 33% 33% 33%;
 
 }
 .grid div{
@@ -295,5 +295,10 @@ ul li {
 }
 .grid div:hover{
     border: 1px solid #5772EF;
+}
+.h3{
+    text-align: center;
+    font-size: medium;
+    font-style: normal;
 }
 
