@@ -284,7 +284,9 @@ ul li {
 }
 /*Css de la segunda pagina de*/
 .grid{
-    display:grid
+    display:grid;
+    grid-template-columns: 33,3 33,3 33,3;
+
 }
 .grid div{
     background: #ffffff;
