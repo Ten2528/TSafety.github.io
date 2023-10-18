@@ -3,6 +3,8 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     box-sizing: border-box;
+    padding: 0;
+    list-style: none;
 }
 h1{font-size: 2em;}
 p{font-size: 1em;}
@@ -14,6 +16,74 @@ button{
     background-color: #5271ff;
     padding: 10px 30px;
     border-radius: 3px;
+}
+body{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer{
+    background-color: #24262B;
+    padding: 80px 0;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-links h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #5271ff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.footer-links ul li a{
+font-size: 18px;
+text-decoration: none;
+color: #BBBBBB;
+display: block;
+margin-bottom: 15px;
+transition: all .3s ease;
+}
+.footer-links ul li a:hover{
+    color: #ffffff;
+    padding-left: 6px;
+}
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10 0 px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+
+}
+.social-link a:hover{
+    background-color: #3498db;
+
+}
+@media(max-width:991px){
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
 }
 input{
     font-size: 1em;
