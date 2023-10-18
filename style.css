@@ -27,6 +27,9 @@ input{
 input:hover{
     background-color:#5772EF;
 }
+button:hover{
+background-color: aliceblue;
+}
 
 /* CSS para el header */
 header {
