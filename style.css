@@ -6,12 +6,21 @@
 }
 h1{font-size: 2em;}
 p{font-size: 1em;}
-input{
+button{
     font-size: 1em;
     font-weight: bold;
     box-shadow:2px 2px 2px rgba(0, 0, 0, o.5);
     color: white;
     background-color: #5271ff;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+input{
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, o.5);
+    color: white;
+    background-color: #41C1BA;
     padding: 10px 30px;
     border-radius: 3px;
 }
