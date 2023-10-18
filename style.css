@@ -24,7 +24,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-}
+} 
+/* Este es el ccs del footer*/
 .footer{
     background-color: #24262B;
     padding: 80px 0;
@@ -82,7 +83,7 @@ transition: all .3s ease;
     .footer-links{
         width: 100%;
         margin-bottom: 30px;
-        
+
     }
 }
 input{
@@ -281,7 +282,10 @@ ul li {
     background: #365B6D;
     font-size: small;
 }
-
+/*Css de la segunda pagina de*/
+.cards{
+    display:grid
+}
 
 
 
