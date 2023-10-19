@@ -409,25 +409,3 @@ button {
     border: none;
     cursor: pointer;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide el grid en dos columnas */
-    grid-template-areas: "section1 section2"; /* Asigna nombres de áreas a las columnas */
-    grid-gap: 20px; /* Espacio entre las secciones */
-}
-
-/* Estilos de las secciones */
-.section {
-    padding: 20px;
-    text-align: center;
-    background-color: #ccc;
-}
-
-/* Asigna las áreas a las secciones */
-.section1 {
-    grid-area: section1;
-}
-
-.section2 {
-    grid-area: section2;
-}
