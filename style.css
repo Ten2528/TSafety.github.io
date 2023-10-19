@@ -429,3 +429,21 @@ button {
 #pantalla-divida{
     display: flex;
 }
+.creative{
+    color: #ffffff;
+    width: 50%;
+}
+.h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 19px;
+    line-height:30 px;
+    width: 50%;
+    margin:auto;
+
+}
+.link{
+    text-align: center;
+}
