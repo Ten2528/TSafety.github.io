@@ -309,60 +309,7 @@ ul li {
     border: 1px solid #5772EF;
 }
 
-/* 4 pagina del home */
-body {
-    background-color: #365B6D;
-    margin: 0;
-    padding: 0;
-}
 
-
-.container {
-    display: flex;
-    color: white;
-}
-
-/* Estilos de la parte izquierda */
-.left-section {
-    padding: 20px;
-}
-
-h1 {
-    font-size: 24px;
-}
-
-.subtitle {
-    color: #888;
-    text-align: justify;
-    margin-top: 10px;
-}
-
-/* Estilos de las cartas */
-.card {
-    border: 2px solid white;
-    border-radius: 50%;
-    text-align: center;
-    margin: 20px 0;
-    padding: 20px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Estilos de la partenshinha derecha */
-.right-section {
-    flex: 1;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Estilos de la imagen  */
-.right-section img {
-    max-width: 100%;
-    height: auto;
-}
 
 .awa{
     float: right;
