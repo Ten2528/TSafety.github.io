@@ -414,8 +414,8 @@ button {
     cursor: pointer;
 }
 /*4 pagina css*/
+
 .izquierda{
-    background: #365B6D;
     height: 100vh;
     width: 50%;
 }
@@ -428,6 +428,7 @@ button {
 }
 .pantalla-divida{
     display: flex;
+    background-color: #365B6D;
 }
 .creative{
     color: #ffffff;
@@ -445,4 +446,6 @@ p{
 }
 .link{
     text-align: center;
+    margin-top: 30px;
+    display: inline-block;
 }
