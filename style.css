@@ -116,9 +116,9 @@ header {
     align-items: center;
 }
 .logo {
-    font-size: 24px;
-    font-weight: 600px;
-    weigh
+    font-size: auto;
+    font-weight:auto;
+    height: auto;
 }
 nav ul {
     list-style-type: none;
