@@ -1,5 +1,4 @@
 *{
-    background: color #ffffff; 
     margin: 0;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     box-sizing: border-box;
@@ -26,7 +25,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-} 
+}
 /* Este es el ccs del footer*/
 .footer{
     background-color: #24262B;
@@ -144,14 +143,13 @@ nav ul li a {
     background-color: #365B6D;
     color: #ffffff;
     font-size: 300;
-    height: 20rem;
+    height: 25rem;
     padding: 30px;
 }
 .home3{
     height: 261px;
-    width: 330px;
+    width: 361px;
     padding-top: 65px;
-    padding-right: 30px;
 }
 
 
@@ -159,22 +157,19 @@ nav ul li a {
 .conta{
     background-color: #a6a6a6;
     height: 30rem;
-    padding-top: 4%;
+    padding-top: 100px;
     display: flex;
     justify-content: space-evenly;
     }
-    .conta .card .card1 .card2 .card3:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    }
-    .card{
+    .card0{
         background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192038.png);
+        
         background-size: cover;
         border: 1px solid black;
         text-align: center;
         padding-top: 15%;
-        height: 5rem;
-        width: auto;
+        height: 20px;
+        width: 300px;
     }
     .card1{
         background-image: url(Imagenes/Oddie.png);
@@ -182,8 +177,8 @@ nav ul li a {
         border: 1px solid black;
         text-align: center;
         padding-top: 15%;
-        height: 5rem;
-        width: auto;
+        height: 20px;
+        width: 300px;
     }
     .card2{
         background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192116.png);
@@ -191,8 +186,8 @@ nav ul li a {
         border: 1px solid black;
         text-align: center;
         padding-top: 15%;
-        height: 5rem;
-        width: auto;
+        height: 20px;
+        width: 300px;
     }
     .card3{
         background-image: url(Imagenes/Captura\ de\ pantalla\ 2023-10-13\ 192100.png);
@@ -200,8 +195,8 @@ nav ul li a {
         border: 1px solid black;
         text-align: center;
         padding-top: 15%;
-        height: 5rem;
-        width: auto;
+        height: 20px;
+        width: 300px;
     }
 .community1{
     font-size: medium;
@@ -239,11 +234,14 @@ footer {
     margin-bottom: 10px;
 }
 
-img {
-    width: 50px;
+.navi {
+    width: 150px;
     height: 100px;
 }
-
+.navi1 {
+    width: 250px;
+    height: 100px;
+}
 
 .right-section {
     text-align: right;
@@ -297,19 +295,32 @@ ul li {
 .grid{
     display:grid;
     grid-template-columns: 33% 33% 33%;
-    background-color: #A6A6A6;
-
+}
+.grid1{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
 }
 .grid div{
-    background: #ffffff;
+    background: #A6A6A6;
     padding: 1em;
-
+}
+.grid1 div{
+    background: #1E1E49;
+    padding: 1em;
+    border-right: 2px solid white;
 }
 .grid div:hover{
     border: 1px solid #5772EF;
 }
-
-
+.grid1 div:hover{
+    border: 1px solid #5772EF;
+}
+.grid .grim{
+    width: 100px;
+}
+.grid1 .grim{
+    width: 100px;
+}
 
 .awa{
     float: right;
@@ -334,7 +345,8 @@ body, ul {
     text-align: center;
     font-size: 30px;
   }
-  .imagen-editada{ width: 140px; /* Ancho de la imagen */
+  .imagen-editada{ 
+    width: 140px; /* Ancho de la imagen */
     height: 140px; /* Altura automática para mantener la proporción original */
     display: block; /* Hace que la imagen sea un bloque para ajustar su ancho */
   }
@@ -378,7 +390,7 @@ button {
 }
 .pantalla-divida{
     display: flex;
-    
+   
 }
 .creative{
     color: #ffffff;
