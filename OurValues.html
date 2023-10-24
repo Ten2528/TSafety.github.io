@@ -1,13 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport">
-        <content="width=devices-width,initial-scale=1.0">
-            <title>Building a better place based on values</title>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Building a better place based on values</title>
+    <style>
+        body {
+            font-family: lato, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #407eb1;
+            color: #8877b6;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #fdfdfd;
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        img {
+            max-width: 100px;
+        }
+
+        section {
+            padding: 10px;
+            margin: 20px;
+            color: #ffffff;
+            background-color: #5f99dba9;
+            border: 1px solid #8e99a550;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body {
+            color: #ffffff;
+            padding: 60px;
+            margin: 20px;
+            background-color: #365b6d;
+            border-radius: 5px;
+        }
+
+        body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sec{
+    float: left;
+}
+ 
+  nav {
+    background-color: #ffffff;
+  }
+  
+ ul {
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .imagen-editada{ width: 140px; /* Ancho de la imagen */
+    height: 140px; /* Altura automática para mantener la proporción original */
+    display: block; /* Hace que la imagen sea un bloque para ajustar su ancho */
+  }
+ 
+  li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 20px; /* Espaciado entre elementos */
+  }
+  a {
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color: #39505e;;
+    font-weight: bold; /* Texto en negritas */
+  }
+input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+        /* Estilo para alinear el texto a la izquierda */
+        .texto-izquierda {
+            text-align: left;
+            float: left; /* Hace que el contenido se desplace a la izquierda */
+            width: 50%; /* Ocupa el 50% del ancho del contenedor principal */
+        }
+
+        /* Estilo para alinear el texto a la derecha */
+        .texto-derecha {
+            text-align: right;
+            float: right; /* Hace que el contenido se desplace a la derecha */
+            width: 50%; /* Ocupa el 50% del ancho del contenedor principal */
+        }
+
+        li {
+            color: #ffffff; /* Cambia el color del texto de la lista */
+        }
+    </style>
+</head>
+<body>
+    <aside class="sec">
+        <img src="logopng.png" alt="logo" width="70px" height="70px">
+    </aside>
+    <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="Contactus.html">Contact Us</a></li>
+          <li><a href="scammers.html">Scammers</a></li>
+        </ul>
+      </nav>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/7264/7264707.png" class="rounded float-start" alt="...">
+        <h1>Building a better place based on values</h1>
+        <img src="https://symborg.com/wp-content/uploads/2019/10/valores.png" class="rounded float-start" alt="...">
+    </header>
+    <section>
+            <h2>Our Values</h2>
+     </section>
+     <body>
+        <div class="texto-izquierda">
+            <h2>We believe in the importance of providing information in a clear and honest manner, ensuring that all users understand what we offer. In addition, we promote inclusion, seeking to ensure that our site is accessible to all people, regardless of their abilities or needs.</h2>
+            <h1><p>We are committed to the following:</p></h1>
+        </div>
+        <div class="texto-derecha">
+            <ul type="circle">
+                <h3><li>Team Work</h3>
+                <h3><li>Tolerance</h3>
+                <h3><li>Transparency</h3>
+                <h3><li>Healthy Community</h3>
+            </ul>
+        </div>
+    </body>
+</body>
+</html>
