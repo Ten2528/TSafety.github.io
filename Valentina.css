@@ -1,0 +1,65 @@
+body {
+    background-color: #A6A6A6;
+    color:white
+}
+aside{
+    float:right;
+}
+div{
+    margin-left: 2%;
+}
+.first{
+    float: left;
+    padding: 40px;
+}
+
+.second{
+  float: right;
+  padding: 49px;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  nav {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+ 
+  ul {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .imagen-editada{ width: 140px; /* Ancho de la imagen */
+    height: 140px; /* Altura automática para mantener la proporción original */
+    display: block; /* Hace que la imagen sea un bloque para ajustar su ancho */
+  }
+ 
+  li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 20px; /* Espaciado entre elementos */
+  }
+  a {
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color:#365B6D;
+    font-weight: bold; /* Texto en negritas */
+  }
+input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.sec{
+    float: left;
+}
