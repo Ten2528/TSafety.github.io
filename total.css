@@ -9,16 +9,26 @@ body, ul {
     background-color: #ffffff; 
   }
   ul {
-    padding: 50px;
+    padding: 45px;
     text-align: center; 
     font-size: 30px;
   }
+  ul li a:hover {
+    color: #ffffff; /* Color del texto al pasar el cursor */
+    background-color: #365B6D;
+    border-radius: 5px; /* Bordes más redondeados al pasar el cursor */
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 25px;
+  }
+    
   .sec{
     float: left;
 }
   li {
     display: inline; /* Muestra los elementos de la lista en línea */
-    margin: 20px; /* Espaciado entre elementos */
+    margin: 40px; /* Espaciado entre elementos */
   }
   a {
     text-decoration: none; /* Quita la subrayado de los enlaces */
@@ -26,13 +36,13 @@ body, ul {
     font-weight: bold; /* Texto en negritas */
   }
 input[type="text"] {
-    flex: 20;
+    flex: 10;
     border: none;
     outline: none;
-    padding: 20px;
+    padding: 10px;
 }
 button {
-    background: none;
+    background: #5d96b3;
     border: none;
     cursor: pointer;
 }
@@ -40,7 +50,7 @@ button {
     font-size: 20px;
 }
   .content{ margin-left: 700px;
-font-style: time roman ;
+font-style: arial;
 min-height: 80vh;
 }
 .mover-abajo{ position: relative; top: 90px;
@@ -49,13 +59,16 @@ min-height: 80vh;
 }
 .mover-abajo2{ position: relative; top: 80px;
 }.mover-abajo3{ position: relative; top: 10px;
+  font-size: 20px;
 }.mover-abajo4{ position: relative; top: 10px;
+  font-size: 20px;
 }.mover-abajo5{ position: relative; top: 10px;
+  font-size: 20px;
 }.mover-abajo6{ position: relative; top: 5px;}
 .titulo{
     width: 900px;
-    margin-left: 220px;
-    font-style: time roman;
+    margin-left: 180px;
+    font-style: Arial, Helvetica, sans-serif;
     background-size:  500px;
     min-height: 10vh;
 }
@@ -69,7 +82,7 @@ min-height: 80vh;
 }
 .mover-arriba1{
    position: relative;top: -520px;
-   margin-left: 30px;
+   margin-left: 00vh;
    width: 190px;
    height: 190px
 }
@@ -78,4 +91,5 @@ min-height: 80vh;
   display: list-item;
   font-size: 20px;
   padding: 10px;
+  text-align: left; /* Alinea el texto a la izquierda */
 }
