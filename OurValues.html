@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: lato, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #4d3535;
             margin: 0;
             padding: 0;
             text-align: center;
@@ -26,7 +26,7 @@
         }
 
         h1 {
-            color: #fdfdfd;
+            color: #4d3535;
             font-size: 24px;
             margin-left: 10px;
         }
@@ -38,7 +38,7 @@
         section {
             padding: 10px;
             margin: 20px;
-            color: #ffffff;
+            color: #4d3535;
             background-color: #5f99dba9;
             border: 1px solid #8e99a550;
             border-radius: 5px;
@@ -48,10 +48,10 @@
         }
 
         body {
-            color: #ffffff;
+            color: #4d3535;
             padding: 60px;
             margin: 20px;
-            background-color: #365b6d;
+            background-color: #cae1ec;
             border-radius: 5px;
         }
 
@@ -70,9 +70,10 @@
   
  ul {
     padding: 30px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
   }
+
   .imagen-editada{ width: 140px; /* Ancho de la imagen */
     height: 140px; /* Altura automática para mantener la proporción original */
     display: block; /* Hace que la imagen sea un bloque para ajustar su ancho */
@@ -87,7 +88,8 @@
     color: #39505e;;
     font-weight: bold; /* Texto en negritas */
   }
-input[type="text"] {
+ 
+  input[type="text"] {
     flex: 1;
     border: none;
     outline: none;
@@ -102,22 +104,44 @@ button {
 
         /* Estilo para alinear el texto a la izquierda */
         .texto-izquierda {
+            padding: 20px;
             text-align: left;
             float: left; /* Hace que el contenido se desplace a la izquierda */
             width: 50%; /* Ocupa el 50% del ancho del contenedor principal */
         }
 
         /* Estilo para alinear el texto a la derecha */
-        .texto-derecha {
-            text-align: right;
-            float: right; /* Hace que el contenido se desplace a la derecha */
-            width: 50%; /* Ocupa el 50% del ancho del contenedor principal */
+         .card{
+            width: 200px;
+            height: 130px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-size: cover;
+            transition: trasform 0.5s;
+         }
+         .card1{
+            background-image: url(seg.png);
+         }
+         .card2{
+            background-image: url(huelaa.png);
+         }
+         .card3{
+            background-image: url(equipo.png);
+         }
+         .card:hover{
+            transform: translateY(-10px);
+         }
+        
+        
+        li {
+            color: #4d3535; /* Cambia el color del texto de la lista */
         }
 
-        li {
-            color: #ffffff; /* Cambia el color del texto de la lista */
-        }
-    </style>
+   </style>
 </head>
 <body>
     <aside class="sec">
@@ -132,9 +156,9 @@ button {
         </ul>
       </nav>
     <header>
-        <img src="https://cdn-icons-png.flaticon.com/512/7264/7264707.png" class="rounded float-start" alt="...">
+        <img src="https://www.bbva.ch/wp-content/uploads/2021/02/ciberseguridad-peq.png" class="rounded float-start" alt="...">
         <h1>Building a better place based on values</h1>
-        <img src="https://symborg.com/wp-content/uploads/2019/10/valores.png" class="rounded float-start" alt="...">
+        <img src="https://centum.com/wp-content/uploads/2022/08/wepik-photo-mode-202278-114027.png" class="rounded float-start" alt="...">
     </header>
     <section>
             <h2>Our Values</h2>
@@ -142,15 +166,29 @@ button {
      <body>
         <div class="texto-izquierda">
             <h2>We believe in the importance of providing information in a clear and honest manner, ensuring that all users understand what we offer. In addition, we promote inclusion, seeking to ensure that our site is accessible to all people, regardless of their abilities or needs.</h2>
-            <h1><p>We are committed to the following:</p></h1>
+            <h2><p>We are committed to the following:</p></h2>
+                    <h2>Team Work</h2>
+                    <h2>Tolerance</h2>
+                    <h2>Transparency</h2>
+                    <h2>Healthy Community</h2>
         </div>
         <div class="texto-derecha">
-            <ul type="circle">
-                <h3><li>Team Work</h3>
-                <h3><li>Tolerance</h3>
-                <h3><li>Transparency</h3>
-                <h3><li>Healthy Community</h3>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card card1">
+                    </div>
+                  </div>
+                <div class="col">
+                  <div class="card card2">
+                    </div>
+                  </div>
+                <div class="col">
+                  <div class="card card3">
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </body>
 </body>
