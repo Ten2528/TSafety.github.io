@@ -1,87 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=devices-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <title>Formulario de registro e inicion sesion</title>
-        <link rel="stylesheet" href="Ana.css" type="text/css">
-    </head>
-    <body>
-        <div class="container-form register">
-          <div class="information">
-            <div class="info-childs">
-                <h2>Welcome</h2>
-                <p>Project safety is an initiative, where each member of the community solves a need of their neighborhood ecologically without polluting the environment.</p>
-                <input type="button" value="login" id="sign-in">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+     <div class="container">
+         
+        <form action="form">
+           <div class="div8"><br> <br> <br> <h2 class="div8">Write to us at</h2> </div>
+           <div class="div">
+           <p class="div">
+                Project safety is an initiative<br> where each member of the community <br> solves
+                a need of their neighborhood ecologically<br>without polluting the environment
+            </p>
         </div>
-        <div class="form-information">
-            <div class="form-information-childs">
-                <h2>Create an account</h2>
-                <div class="icons">
-                    <i class='bx bxl-google'></i>
-                    <i class='bx bxl-github'></i>
-                    <i class='bx bxl-linkedin' ></i>
+             <br><label for="Name">Write your name</label> <br>
+            <input type="text" id="Name" class="box">
+           <br> <label for="Email">Write your email</label> 
+            <br><input type="Email" id="mail" class="box">
+           <br> <label for="Message">Write your message</label> <br>
+            <textarea="Message" class="box"  id="message" cols="30" rows="10"></textarea>
+        </form>
+
+
+        <div class="info">
+          <img src="projectsafety.png" class="img-1" alt="">
+            <div class="location">
+              <div class="icons">
+                    <img src="direccion.png" alt="">
+                    <p>200 TEST CDMX PC: 5000 </p>
                 </div>
-                <p>or use your email to enter</p>
-                <form class="form">
-                 <label>
-                    <i class='bx bx-user'></i>
-                    <input type="text" placeholder="First name">
-                 </label>
-                 <label>
-                    <i class='bx bx-envelope'></i>
-                    <input type="email" placeholder="Email">
-                 </label>
-                 <label>
-                    <i class='bx bx-lock-alt' ></i>
-                    <input type="password" placeholder="Password">
-                 </label>
-                 <input type="submit" value="sign up">
-                </form>
-            </div>
+                <div class="icons">
+                    <img src="cell.png" alt="">
+                    <p>1221881</p>
+                </div>
+                <div class="icons">
+                    <img src="correo.png" alt="">
+                    <p>galvezflor@gma.com</p>
+                </div>
+                <div class="icons">
+                    <img src="facebook.png" alt="">
+                    <img src="twitter.png" alt="">
+                    <img src="insta.png" alt="">
+                </div>
+                <div>
+                    <input type="submit" value="Send" class="submit">
+                </div>
+           </div>
         </div>
-
-
-
-
-
-
-
-
-        <div class="container-form login hide">
-            <div class="information">
-              <div class="info-childs">
-                  <h2>Welcome back!</h2>
-                  <p>Project safety is an initiative, where each member of the community solves a need of their neighborhood ecologically without polluting the environment.</p>
-                  <input type="button" value="Sign up" id="sign-up">
-          </div>
-          <div class="form-information">
-              <div class="form-information-childs">
-                  <h2>login</h2>
-                  <div class="icons">
-                      <i class='bx bxl-google'></i>
-                      <i class='bx bxl-github'></i>
-                      <i class='bx bxl-linkedin' ></i>
-                  </div>
-                  <p>or log in to an account|</p>
-                  <form class="form">
-                   <label>
-                      <i class='bx bx-envelope'></i>
-                      <input type="email" placeholder="Email">
-                   </label>
-                   <label>
-                      <i class='bx bx-lock-alt' ></i>
-                      <input type="password" placeholder="Password">
-                   </label>
-                   <input type="submit" value="login">
-                  </form>
-              </div>
-          </div>
-          <script src="Scrip.Js"></script>
-    </body>
-</html>
+   </div>
