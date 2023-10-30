@@ -1,13 +1,28 @@
-*{
-    background: color #ffffff; 
+body {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    padding: 0;
+    background-color: #6e7f8f; /* Fondo gris */
+    font-family:'Poppins', sans-serif;
 }
 
-/* CSS para el header */
-header {
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
+
+div {
+    color: #ffffff;
+}
+p{
+    color: #ffffff; 
+    font-size: 25px;
+    text-align: center; 
+}
+
+img{
+  float: center;
+}
+
+hr{
+    text-align: center;
+}
+
+div {
+    color: #ffffff;
+}
