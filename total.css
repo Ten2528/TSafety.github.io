@@ -28,7 +28,7 @@ body, ul {
 }
   li {
     display: inline; /* Muestra los elementos de la lista en línea */
-    margin: 40px; /* Espaciado entre elementos */
+    margin: 45px; /* Espaciado entre elementos */
   }
   a {
     text-decoration: none; /* Quita la subrayado de los enlaces */
