@@ -106,7 +106,7 @@ min-height: 80vh;
   width: 300px; /* Ancho de la caja */
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
-  position: relative; top: -160px;
+  position: relative; top: -100px;
   margin-right: 300px;
 }
 img {
@@ -126,7 +126,7 @@ font-size: 20px;}
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 380px;
-  position: relative;top: -449px;
+  position: relative;top: -349px;
 }
 .caja4{
   text-align: center; /* Alineación del texto al centro */
@@ -138,5 +138,5 @@ font-size: 20px;
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 760px;
-  position: relative;top: -740px;
+  position: relative;top: -731px;
 }
