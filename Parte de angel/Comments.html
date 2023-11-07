@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Comments.css">
+    <title>Nested Comment Indetation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="comment_container opened" id="first-comment">
+            <div class="comment_card">
+                <h3 class="comment_title"> The first comment</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+                     vero odio molestias dolorum cum libero eos in quia dolorem, excepturi unde corrupti omnis
+                      itaque esse suscipit blanditiis, consequatur ad fugit!
+                </p>
+                <div class="comment__card-footer">
+                    <div> Likes 123</div>
+                    <div>Dislikes 23</div>
+                    <div class="show-replies"> Reply 2 </div>
+                </div>
+            </div>
+            <div 
+            class="comment_container" 
+            dataset="first-comment"
+             id="first-reply">
+                <div class="comment_card">
+                    <h3 class="comment_title"> The first reply</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+                         vero odio molestias dolorum cum libero eos in quia dolorem, excepturi unde corrupti omnis
+                          itaque esse suscipit blanditiis, consequatur ad fugit!
+                    </p>
+                    <div class="comment__card-footer">
+                        <div> Likes 123</div>
+                        <div>Dislikes 23</div>
+                        <div class="show-replies"> Reply 1 </div>
+                    </div>
+                </div>
+                <div class="comment__container" dataset="first-reply" id="first-first-reply">
+                    <div class="comment_card">
+                        <h3 class="comment_title"> The first reply to the first replay</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+                             vero odio molestias dolorum cum libero eos in quia dolorem, excepturi unde corrupti omnis
+                              itaque esse suscipit blanditiis, consequatur ad fugit!
+                        </p>
+                        <div class="comment__card-footer">
+                            <div> Likes 123</div>
+                            <div>Dislikes 23</div>
+                            <div class="show-replies"> Reply 1 </div>
+                        </div>
+                    </div>
+                    <div class="comment__container" dataset="first-first-reply">
+                        <div class="comment_card">
+                            <h3 class="comment_title"> The first reply to the first reply to the first reply</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+                                 vero odio molestias dolorum cum libero eos in quia dolorem, excepturi unde corrupti omnis
+                                  itaque esse suscipit blanditiis, consequatur ad fugit!
+                            </p>
+                            <div class="comment__card-footer">
+                                <div> Likes 123</div>
+                                <div>Dislikes 23</div>
+                                <div class="show-replies"> Reply 0 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="comment_container" dataset="first-comment">
+                <div class="comment_card">
+                    <h3 class="comment_title"> The second reply</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+                         vero odio molestias dolorum cum libero eos in quia dolorem, excepturi unde corrupti omnis
+                          itaque esse suscipit blanditiis, consequatur ad fugit!
+                    </p>
+                    <div class="comment_footer">
+                        <div> Likes 123</div>
+                        <div>Dislikes 23</div>
+                        <div class="show-replies"> Reply 0 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Comments.js"></script>
+    
+</body>
+</html>
