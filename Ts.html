@@ -7,8 +7,8 @@
     <!--CSS de Home y Nav-->
     <link rel="stylesheet" href="Parte de angel/home.css">
      <!---CSS del nav-->
-     <link rel="stylesheet" href="Parte de angel/NavII.css">
-     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="Parte de angel/Nav.css">
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!--CSS de los Sliders-->
     <link rel="stylesheet" href="Parte de angel/slider.css">
@@ -27,44 +27,18 @@
 </head>
 <body>
     <nav>
-        <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen'></i>
-            <span class="logo navLogo"><a href="#">Total Safety Program</a></span>
-
-            <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="#">Total Safety Program</a></span>
-                    <i class='bx bx-x siderbarClose'></i>
-                </div>
-
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="AboutUs.html">About</a></li>
-                    <li><a href="Contactus.html">Contact</a></li>
-                    <li><a href="Scammers.html">Scammers</a></li>
-                    <li><a href="Download.html">Download</a></li>
-                </ul> 
-            </div>
-
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun' ></i>
-                </div>
-
-                <div class="searchBox">
-                    <div class="searchToggle">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search'></i>
-               </div>
-                    
-                    <div class="search-field">
-                          <input type="text" placeholder="Search...">
-                          <i class='bx bx-search'></i>
-                     </div>
-                </div>
-            </div>
-        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Total Safety Program</label>
+       <ul>
+        <li> <a class="active" href="#">Home</a></li>
+        <li> <a href="#">About us</a></li>
+        <li> <a href="#">Contact us</a></li>
+        <li> <a href="#">Scammers</a></li>
+        <li> <a href="#">Download</a></li>
+       </ul>
     </nav>
     <script src="NavII.js"></script>
     
