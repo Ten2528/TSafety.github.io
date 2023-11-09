@@ -1,4 +1,4 @@
-body{ background-color: #5271ff;
+body{ background-color: #0082e6;
     
 }
 *{
@@ -95,9 +95,10 @@ font-size: 16px;
   }
 }
   .content{ margin-left: 700px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
   font-style: normal;
 min-height: 80vh;
+position: relative;top: -5px;
 }
 .mover-abajo{ position: relative; top: 90px;
   font-family: 'Poppins', sans-serif;
@@ -111,7 +112,7 @@ min-height: 80vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 60;
+  font-size: 45;
 }.mover-abajo3{ position: relative; top: 10px;
   font-size: 20px; 
   font-family:'Poppins', sans-serif;
@@ -129,12 +130,14 @@ min-height: 80vh;
   font-style: normal;}
 .titulo{
     width: 900px;
-    margin-left: 180px;
+    margin-left: 150px;
     font-family: 'Poppins', sans-serif;
   font-style: normal;
     background-size:  500px;
-    min-height: 10vh;
+    min-height: 20px;
     color: #ffffff;
+    font-size: 25px;
+    position: relative; top: 30px;
 }
 .mover-arriba{
     position: relative; top: -340px;font-family: 'Poppins', sans-serif;
@@ -143,6 +146,9 @@ min-height: 80vh;
 .mover-arriba2{
     position: relative; top: -340px;font-family:'Poppins', sans-serif;
     font-style: normal;
+    color: #ffffff;
+font-style: normal;
+font-size: 25px;
 }
 .mover-arriba8{position: relative; top: -540px;font-family:'Poppins', sans-serif;
   font-style: normal;
@@ -159,7 +165,7 @@ min-height: 80vh;
   width: 300px; /* Ancho de la caja */
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
-  position: relative; top: -30px;
+  position: relative; top: -180px;
   margin-right: 300px;
 }
 img {
@@ -179,7 +185,7 @@ font-size: 20px;}
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 380px;
-  position: relative;top: -279px;
+  position: relative;top: -416px;
 }
 .caja4{
   text-align: center; /* Alineación del texto al centro */
@@ -191,158 +197,5 @@ font-size: 20px;
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 760px;
-  position: relative;top: -661px;
+  position: relative;top: -650px;
 }
-*{
-  margin: 0;
-  padding: 0;
-  font-family:'Poppins', sans-serif;
-  box-sizing: border-box;
-}
-
-body{
-  background: #eef8ff;
-}
-
-footer{
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  background: linear-gradient(to right,#00093c, #2d0b00);
-  color: #fff;
-  padding: 100px 0 30px;
-  font-size: 13px;
-  line-height: 20px;
-}
-.row{
-width: 85%;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
-align-items: flex-start;
-justify-content: space-between;
-}
-.col{
-  flex-basis: 25%;
-  padding: 10px;
-}
-.col:nth-child(2), .col:nth-child(3){
-  flex-basis: 15%;
-}
-
-.logo{
-  width: 80px;
-  margin-bottom: 30px;
-}
-.col h3{
-  width: fit-content;
-  margin-bottom: 40px;
-  position: relative;
-}
-.email-id{
-  width: fit-content;
-  border-bottom: 1px solid #ccc;
-  margin: 20px 0;
-}
-ul li{
-  list-style: none;
-  margin-bottom: 12px;
-}
-ul li a{
-text-decoration: none;
-color: #fff;
-}
-
-form{
-  padding-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
-}
-form .far{
-  font-size: 18px;
-  margin-right: 10px;
-}
-form input{
-  width: 100%;
-  background: transparent;
-  color: #ccc;
-  border: 0;
-  outline: none;
-}
-form button{
-  background: transparent;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-}
-form button .fas{
-  font-size: 16px;
-  color: #ccc;
-}
-.social-icons .fab{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
-  color: #000;
-  background: #fff;
-  margin-right: 15px;
-  cursor: pointer;
-}
-hr{
-  width: 90%;
-  border: 0;
-  border-bottom: 1px solid #ccc;
-  margin: 20px auto;
-}
-.copyright{
-  text-align: center;
-}
-.underline{
-  width: 100%;
-  height: 5px;
-  background: #767676;
-  border-radius: 3px;
-  position: absolute;
-  top: 25px;
-  left: 0;
-  overflow: hidden;
-}
-.underline span{
-  width: 15px;
-  height: 100%;
-  background: #fff;
-  border-radius: 3px;
-  position: absolute;
-  top: 0;
-  left: 10px;
-  animation: moving 2s linear infinite;
-}
-@keyframes moving{
-  0%{
-      left: -20px;
-  }
-  100%{
-      left: 100%;
-  }
-
-}
-
-@media (max-width: 700px){
-  footer{
-      bottom: unset;
-  }
-  .col{
-      flex-basis: 100%;
-
-  }
-  .col:nth-child(2), .col:nth-child(3){
-      flex-basis: 100%;
-  }
-}
-
