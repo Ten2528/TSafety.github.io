@@ -1,0 +1,82 @@
+body {
+    font-family: lato, sans-serif;
+    background-color: #4d3535;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #a8cce9;
+    color: #d3d0da;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #4d3535;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100px;
+}
+
+section {
+    padding: 30px;
+    margin: 30px;
+    color: #4d3535;
+    background-color: #a3cbf8a9;
+    border: 1px solid #c8cfd6fa;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    color: #4d3535;
+    padding: 0;
+    margin: 0;
+    background-color: #cae1ec;
+    border-radius: 5px;
+}
+
+
+/* Estilo para alinear el texto a la izquierda */
+.texto-izquierda {
+    padding: 20px;
+    text-align: left;
+    float: left; /* Hace que el contenido se desplace a la izquierda */
+    width: 50%; /* Ocupa el 50% del ancho del contenedor principal */
+}
+
+/* Estilo para alinear el texto a la derecha */
+ .card{
+    width: 200px;
+    height: 130px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    transition: trasform 0.5s;
+ }
+ .card1{
+    background-image: url(seg.png);
+ }
+ .card2{
+    background-image: url(huelaa.png);
+ }
+ .card3{
+    background-image: url(equipo.png);
+ }
+ .card:hover{
+    transform: translateY(-10px);
+ }
