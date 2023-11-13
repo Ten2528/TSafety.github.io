@@ -10,7 +10,7 @@ body{
 }
 
 footer{
-    width: 100%;
+    width: 100px;
     position: relative;
     bottom: 0;
     background: linear-gradient(to right,#00093c, #2d0b00);
