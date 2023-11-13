@@ -1,4 +1,6 @@
-body{ background-color: #a3a8b7}
+body{ background-color: #a3a8b7;
+font-family:'Poppins', sans-serif;}
+
 
   /* Comienzo del NAV */
 
@@ -123,19 +125,17 @@ position: relative;top: -5px;
 }.mover-abajo4{ position: relative; top: 10px;
   font-size: 20px;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
 }.mover-abajo5{ position: relative; top: 10px;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #ffffff; } 
   .mover-abajo6{ 
-  position: relative; top: 5px;font-family: 'Poppins', sans-serif;
+  position: relative; top: 5px;
   font-style: normal;}
 .titulo{
     width: 900px;
     margin-left: 150px;
-    font-family: 'Poppins', sans-serif;
   font-style: normal;
     background-size:  500px;
     min-height: 20px;
@@ -144,18 +144,17 @@ position: relative;top: -5px;
     position: relative; top: 30px;
 }
 .mover-arriba{
-    position: relative; top: -340px;font-family: 'Poppins', sans-serif;
+    position: relative; top: -340px;
     font-style: normal;
 }
 .mover-arriba2{
     position: relative; top: -340px;
-    font-family:'Poppins', sans-serif;
     font-style: normal;
     color: #ffffff;
 font-style: normal;
 font-size: 25px;
 }
-.mover-arriba8{position: relative; top: -540px;font-family:'Poppins', sans-serif;
+.mover-arriba8{position: relative; top: -540px;
   font-style: normal;
 }
 .mover-arriba1{
@@ -163,7 +162,6 @@ font-size: 25px;
    margin-left: 00vh;
    width: 190px;
    height: 190px;
-   font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
 .caja {
