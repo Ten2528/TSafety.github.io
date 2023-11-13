@@ -1,5 +1,5 @@
 body{ background-color: #0082e6;
-    
+  /* Comienzo del NAV */
 }
 *{
   padding: 0;
@@ -93,6 +93,7 @@ font-size: 16px;
   #check:checked ~ ul{
       left: 0;
   }
+  /* termimanación del Nav */
 }
   .content{ margin-left: 700px;
     font-family: 'Poppins', sans-serif;
@@ -144,7 +145,8 @@ position: relative;top: -5px;
     font-style: normal;
 }
 .mover-arriba2{
-    position: relative; top: -340px;font-family:'Poppins', sans-serif;
+    position: relative; top: -340px;
+    font-family:'Poppins', sans-serif;
     font-style: normal;
     color: #ffffff;
 font-style: normal;
@@ -165,7 +167,7 @@ font-size: 25px;
   width: 300px; /* Ancho de la caja */
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
-  position: relative; top: -180px;
+  position: relative; top: -150px;
   margin-right: 300px;
 }
 img {
@@ -185,7 +187,7 @@ font-size: 20px;}
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 380px;
-  position: relative;top: -416px;
+  position: relative;top: -150px;
 }
 .caja4{
   text-align: center; /* Alineación del texto al centro */
@@ -197,5 +199,5 @@ font-size: 20px;
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 760px;
-  position: relative;top: -650px;
+  position: relative;top: -150px;
 }

@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Welcome to Total Safety, the most qualified security family in all of Central America.">
-    <meta name="keywords" content="Welcome, total, safety, security, family, Central America, qualified, all">
-    <title>Form</title>
-    <link rel="stylesheet" href="Ana.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Ana.css">
+<!---CSS del nav-->
+<link rel="stylesheet" href="nav.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 <body>
-     <div class="container">
-         
-        <form action="form">
-           <div class="div8"><br> <br> <br> <h2 class="div8">Write to us at</h2> </div>
-           <div class="div">
-           <p class="div">
-                Project safety is an initiative<br> where each member of the community <br> solves
-                a need of their neighborhood ecologically<br>without polluting the environment
-            </p>
+<nav>
+   <input type="checkbox" id="check">
+   <label for="check" class="checkbtn">
+     <i class="fas fa-bars"></i>
+   </label>
+   <label class="logo">Total Safety Program</label>
+  <ul>
+   <li> <a class="active" href="#">Home</a></li>
+   <li> <a href="AboutUs.html">About us</a></li>
+   <li> <a href="Contactus.html">Contact us</a></li>
+   <li> <a href="Scammers.html">Scammers</a></li>
+   <li> <a href="Download.html">Download</a></li>
+  </ul>
+</nav>
+<br>
+    <div class="contact-form">
+        <div class="container">
+            <div class="main">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <form action="https://formsubmit.co/ana.laguna2025@mottach.superate.org.pa" method="post">
+                        <input type="text" name="name" placeholder="Enter Your Name">
+                      
+                        <input type="email" name="email" placeholder="Enter Your Email">
+                        <textarea name="message" placeholder="Your Message"></textarea>                   
+             <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="form-img">
+                    <img src="projectnuevo.png" alt="">
+                </div>
+            </div>
         </div>
-             <br><label for="Name">Write your name</label> <br>
-            <input type="text" id="Name" class="box">
-           <br> <label for="Email">Write your email</label> 
-            <br><input type="Email" id="mail" class="box">
-           <br> <label for="Message">Write your message</label> <br>
-            <textarea="Message" class="box"  id="message" cols="30" rows="10"></textarea>
-        </form>
-
-
-        <div class="info">
-          <img src="projectsafety.png" class="img-1" alt="">
-            <div class="location">
-              <div class="icons">
-                    <img src="direccion.png" alt="">
-                    <p>200 TEST CDMX PC: 5000 </p>
-                </div>
-                <div class="icons">
-                    <img src="cell.png" alt="">
-                    <p>1221881</p>
-                </div>
-                <div class="icons">
-                    <img src="correo.png" alt="">
-                    <p>galvezflor@gma.com</p>
-                </div>
-                <div class="icons">
-                    <img src="facebook.png" alt="">
-                    <img src="twitter.png" alt="">
-                    <img src="insta.png" alt="">
-                </div>
-                <div>
-                    <input type="submit" value="Send" class="submit">
-                </div>
-           </div>
-        </div>
-   </div>
+    </div> 
+</body>
+</html>
