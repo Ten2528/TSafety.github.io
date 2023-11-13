@@ -1,4 +1,4 @@
-body{ background-color: #0082e6;
+body{ background-color: #a3a8b7;
   /* Comienzo del NAV */
 }
 *{
@@ -169,7 +169,7 @@ font-size: 25px;
   width: 300px; /* Ancho de la caja */
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
-  position: relative; top: -150px;
+  position: relative; top: -130px;
   margin-right: 300px;
 }
 img {
@@ -201,5 +201,5 @@ font-size: 20px;
   border: 2px solid #ffffff; /* Borde de 1 píxel de grosor */
   padding: 10px; /* Espacio interno */
   margin-left: 760px;
-  position: relative;top: -150px;
+  position: relative;top: -130px;
 }
