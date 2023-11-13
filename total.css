@@ -128,7 +128,8 @@ position: relative;top: -5px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #ffffff; } 
-  .mover-abajo6{ position: relative; top: 5px;font-family: 'Poppins', sans-serif;
+  .mover-abajo6{ 
+  position: relative; top: 5px;font-family: 'Poppins', sans-serif;
   font-style: normal;}
 .titulo{
     width: 900px;
