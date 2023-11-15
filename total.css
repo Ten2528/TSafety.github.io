@@ -1,5 +1,5 @@
-body{ background-color: #0082e6;;
-font-family:'Poppins', sans-serif;}
+body{ background-color: #adcdebf8;;
+font-family:'Poppins', sans-serif; font-style: normal;}
 
 
   /* Comienzo del NAV */
@@ -99,44 +99,30 @@ font-size: 16px;
   /* termimanación del Nav */
 }
   .content{ margin-left: 700px;
-    font-family: 'Poppins', sans-serif;
-  font-style: normal;
 min-height: 80vh;
 position: relative;top: -5px;
 }
 .mover-abajo{ position: relative; top: 90px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
 }
 .mover-abajo1{ position: relative; top: 240px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
 }
 .mover-abajo2{ position: relative; top: 80px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   color: #ffffff;
   font-size: 45;
 }.mover-abajo3{ position: relative; top: 10px;
   font-size: 20px; 
-  font-family:'Poppins', sans-serif;
-  font-style: normal;
   color: #ffffff;
 }.mover-abajo4{ position: relative; top: 10px;
   font-size: 20px;
   color: #ffffff;
 }.mover-abajo5{ position: relative; top: 10px;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   color: #ffffff; } 
   .mover-abajo6{ 
-  position: relative; top: 5px;
-  font-style: normal;}
+  position: relative; top: 5px;}
 .titulo{
     width: 900px;
     margin-left: 150px;
-  font-style: normal;
     background-size:  500px;
     min-height: 20px;
     color: #ffffff;
@@ -145,18 +131,15 @@ position: relative;top: -5px;
 }
 .mover-arriba{
     position: relative; top: -340px;
-    font-style: normal;
+   
 }
 .mover-arriba2{
     position: relative; top: -340px;
     font-style: normal;
     color: #ffffff;
-font-style: normal;
 font-size: 25px;
 }
-.mover-arriba8{position: relative; top: -540px;
-  font-style: normal;
-}
+.mover-arriba8{position: relative; top: -540px;}
 .mover-arriba1{
    position: relative;top: -520px;
    margin-left: 00vh;
@@ -197,5 +180,3 @@ font-size: 25px;
     max-width: 100%;
     height: auto;
 }
-
-/*inicio de footer */
