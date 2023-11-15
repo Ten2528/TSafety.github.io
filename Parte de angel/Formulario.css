@@ -8,11 +8,16 @@
 }
 
 body{
-    height: 100vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #4070f4;
+    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(d3885d2b8bfd0f8ae8d9399d8bea5045.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .container{
