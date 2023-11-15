@@ -1,9 +1,8 @@
-body{ background-color: #adcdebf8;
-font-family:'Poppins', sans-serif; font-style: normal;}
-
-
+body{ background-color: rgb(152, 211, 255) ;
+font-family:'Poppins', sans-serif; 
+font-style:normal;
+}
   /* Comienzo del NAV */
-
 *{
   padding: 0;
   margin: 0;
