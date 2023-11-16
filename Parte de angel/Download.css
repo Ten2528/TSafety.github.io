@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
 }
+
+/*Estas son las propiedades generales del boton*/
 .button{
     min-height: 100vh;
     display: flex;
@@ -13,6 +15,7 @@
     justify-content: center;
     background-color: #e5f2fd;
 }
+/*Aquí se encuentra las propiedades esteticas del boton*/
 .download-btn{
     
     border: none;
@@ -31,10 +34,12 @@
 .download-btn .icon{
     font-size: 2rem;
 }
+/*Esta sección corresponde al texto y al timer de la descarga*/
 .download-btn .text{
     font-size: 1.6rem;
     padding-left: 10px;
 }
+
 .download-btn.timer{
     color: #000;
     background: none;

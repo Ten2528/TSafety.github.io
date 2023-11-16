@@ -1,19 +1,19 @@
 const downloadBtn = document.querySelector(".download-btn");
-//google drive's file link
+//Este es el link de descarga de google drive 
 const fileLink = "https://drive.google.com/uc?export=download&id=1h5hNCZWpuM2ZribRuAYASj5v6afh7oif";
 
 const initTimer = () => {
-    //if downloadBtn contains disable-timer class then only if conditional code will run
+    //Por lo que tengo entendido si downloadBtn contiene disable-timer entonces solo se ejecutura la condicional?
     if (downloadBtn.classList.contains("disable-timer")) {
         return (location.href = fileLink);
     }
-    //getting data-timer attribute from HTML
+    //El atributo data timer de html
     let timer = downloadBtn.dataset.timer;
     downloadBtn.classList.add("timer");
-    //replacing downladBtn's html by fllowing text
+    //Esto es para reemplazar el downloadbtn del html
     downloadBtn.innerHTML = `Your file will download in <b>${timer}</b> seconds`;
 
-    //creating initCounter variable with setInterval function
+    // Aquí Creamos la variable initcounter con set interval
     const initCounter = setInterval(() => {
         if(timer > 0){
         timer--;

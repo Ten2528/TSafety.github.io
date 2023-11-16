@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <!---Aquí inicia el container y el formulario junto a las etiquetas -->
     <div class="container">
       <form action="Ts.html">
         <h2>Sign Up</h2>
@@ -21,11 +22,13 @@
           <label for="email">Email Address</label>
           <input type="text" id="email" placeholder="Enter your email address">
         </div>
+        <!--Aquí se encuentra el div del password junto al icono de mostrar y ocultar contraseña-->
         <div class="form-group password">
           <label for="password">Password</label>
           <input type="password" id="password" placeholder="Enter your password"> 
           <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
         </div>
+        <!---Aquí se encuentra la sección del date y gender-->
         <div class="form-group date">
           <label for="date">Birth Date</label>
           <input type="date" id="date" placeholder="select your date">
@@ -38,19 +41,20 @@
             <option value="Female">Female</option>
             <option value="Other">Other</option>
           </select>
-
+        <!---El hipervinculo hacia el sign in-->
           <div class="login-signup">
             <span class="text">Already have an account?
               <a href="Formulario.html" class="text login-link">Sign in</a>
             </span>
           </div>
         </div>
+        <!---Este es el boton-->
         <div class="form-group submit-btn">
           <input type="submit" value="Submit">
         </div>
       </form>
     </div>
-  
+    <!---El script del signup-->
     <script src="Parte de angel/Signup.js"></script>
   </body>
 </html>

@@ -2,8 +2,8 @@ const cookieBox = document.querySelector(".wrapper"),
 buttons = document.querySelectorAll(".button");
 
 const executeCodes = () => {
-    // if cookie contains codinglab it will be returned and below of this code will not run
-    if(document.cookie.includes("codinglab")) return;
+    // Esto es para que la cookie solo se muestre una vez si contiene "AngelitoTenuncio " se devolvera y no se ejecutara
+    if(document.cookie.includes("AngelitoTenuncio")) return;
      cookieBox.classList.add("show");
 
     buttons.forEach((button) => {
@@ -13,11 +13,11 @@ const executeCodes = () => {
             //if button has acceptBtn id
             if(button.id == "acceptBtn"){
                //set cookies for 1 month. 60 = 1min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
-               document.cookie = "cookieBy= codinglab; max-age="+ 60 * 60 * 24 * 30;
+               document.cookie = "cookieBy= pipipipi; max-age="+ 60 * 60 * 24 * 30;
             }
         });
     });
 };
 
-// executeCodes function will be called on webpage load 
+// Esto es para que la funcíon se ejecute al cargar la página web
 window.addEventListener("load", executeCodes);
