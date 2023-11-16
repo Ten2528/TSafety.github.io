@@ -9,6 +9,7 @@
 /*Aquí comienza la primera parte de la pagina web*/
 .ho{font-size: 2em;}
 .po{font-size: 1em;}
+/* Esta es la primera parte del home donde esta el texto*/
 .Home{
     display: grid;
     grid-template-columns: auto auto;
@@ -18,11 +19,13 @@
     height: 25rem;
     padding: 30px;
 }
+/* Esta es la segunda parte del home donde esta las dimensiones de la imagen*/
 .home3{
     height: 261px;
     width: 361px;
     padding-top: 65px;
 }
+/* Esta son las caracteristicas de los botones*/
 .bo{
     font-size: 1em;
     font-weight: bold;
