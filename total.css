@@ -48,7 +48,7 @@ font-size: 25px;
 .caja {
   flex: 1;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   border: 1px solid #ccc;
   margin: 25px; /* Aumenta el margen para una mayor separación */
   position: relative;top: -150px;
