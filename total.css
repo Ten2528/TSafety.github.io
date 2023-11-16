@@ -12,12 +12,10 @@ position: relative;top: -5px;
   font-size: 45;
 }
 .texto{ position: relative; top: 10px;
-  font-size: 30px; 
+  font-size: 25px; 
   text-align: justify;
   color: #ffffff;
   }
-  .mover-abajo6{ 
-  position: relative; top: 5px;}
 .titulo{
     background-size:  500px;
     min-height: 25px;
