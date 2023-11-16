@@ -1,5 +1,5 @@
 body{ background-color:#365b6d ;
-font-family:'Poppins', sans-serif; 
+font-family:'Poppins', sans-serif;color: #ffffff;
 font-style:normal;
 }
   .content{ margin-left: 700px;
@@ -8,38 +8,28 @@ position: relative;top: -5px;
 }
 .mover-abajo{ position: relative; top: 90px;
 }
-.mover-abajo1{ position: relative; top: 240px;
-}
 .mover-abajo2{ position: relative; top: 80px;
-  color: #ffffff;
   font-size: 45;
-}.mover-abajo3{ position: relative; top: 10px;
-  font-size: 20px; 
-  color: #ffffff;}
+}
+.p{ position: relative; top: 10px;
+  font-size: 25px; 
+  text-align: justify;
+  }
   .mover-abajo6{ 
   position: relative; top: 5px;}
 .titulo{
     background-size:  500px;
-    min-height: 20px;
-    color: #ffffff;
-    font-size: 20px;
+    min-height: 25px;
+    font-size: 25px;
     position: relative; top: 30px;
-}
-.mover-arriba{
     position: relative; top: -340px;
 }
-.mover-arriba2{
+.sub{
     position: relative; top: -340px;
     font-style: normal;
-    color: #ffffff;
 font-size: 25px;
 }
-.mover-arriba8{position: relative; top: -540px;}
-.mover-arriba1{
-   position: relative;top: -520px;
-   margin-left: 00vh;
-  font-style: normal;
-}
+
 .contenedor {
   display: flex;
   justify-content: space-between;
@@ -49,7 +39,7 @@ font-size: 25px;
   flex: 1;
   text-align: center;
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   margin: 25px; /* Aumenta el margen para una mayor separación */
   position: relative;top: -150px;
 }
@@ -65,7 +55,7 @@ font-size: 25px;
     flex: 2;
     text-align: center;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid #ffffff;
 }
 .caja img {
     max-width: 100%;
