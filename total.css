@@ -1,4 +1,4 @@
-body{ background-color:#365b6d ;
+body {background-color: #365b6d;
 font-family:'Poppins', sans-serif;color: #ffffff;
 font-style:normal;
 }
@@ -21,7 +21,8 @@ position: relative;top: -5px;
     background-size:  500px;
     min-height: 25px;
     font-size: 25px;
-    position: relative; top: 30px
+    position: relative; top: 30px;
+    position: relative;left: 10px;
 }
 .sub{
     position: relative; top: -340px;
