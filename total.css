@@ -15,13 +15,7 @@ position: relative;top: -5px;
   font-size: 45;
 }.mover-abajo3{ position: relative; top: 10px;
   font-size: 20px; 
-  color: #ffffff;
-}.mover-abajo4{ position: relative; top: 10px;
-  font-size: 20px;
-  color: #ffffff;
-}.mover-abajo5{ position: relative; top: 10px;
-  font-size: 20px;
-  color: #ffffff; } 
+  color: #ffffff;}
   .mover-abajo6{ 
   position: relative; top: 5px;}
 .titulo{
@@ -33,7 +27,6 @@ position: relative;top: -5px;
 }
 .mover-arriba{
     position: relative; top: -340px;
-   
 }
 .mover-arriba2{
     position: relative; top: -340px;
@@ -45,8 +38,6 @@ font-size: 25px;
 .mover-arriba1{
    position: relative;top: -520px;
    margin-left: 00vh;
-   width: 190px;
-   height: 190px;
   font-style: normal;
 }
 .contenedor {
