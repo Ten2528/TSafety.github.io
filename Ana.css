@@ -42,7 +42,6 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: bold;
    
-   /* Este es un comentario en CSS */
 }
 a.active,a:hover{
     background: #e4e4e4;
