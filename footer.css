@@ -8,7 +8,7 @@
 body{
     background: #eef8ff;
 }
-
+/* Aquí esta las propiedas generales del footer*/
 footer{
     width: 100%;
     position: relative;
@@ -19,6 +19,7 @@ footer{
     font-size: 13px;
     line-height: 20px;
 }
+/* Esta parte son las filas y colummnas generales */
 .row{
 width: 85%;
 margin: auto;
@@ -34,6 +35,7 @@ justify-content: space-between;
 .col:nth-child(2), .col:nth-child(3){
     flex-basis: 15%;
 }
+/* Aquí se encuentra el logo, el texto y el formulario del correo */
 
 .logo{
     width: 80px;
@@ -87,6 +89,7 @@ form button .fas{
     font-size: 16px;
     color: #ccc;
 }
+/* Aqui esta los iconos recuerda el line height*/
 .social-icons .fab{
     width: 40px;
     height: 40px;
@@ -128,6 +131,7 @@ hr{
     left: 10px;
     animation: moving 2s linear infinite;
 }
+/* Este es el codigo de la animación de la barra*/
 @keyframes moving{
     0%{
         left: -20px;
