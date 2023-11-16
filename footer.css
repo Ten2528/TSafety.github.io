@@ -35,17 +35,19 @@ justify-content: space-between;
 .col:nth-child(2), .col:nth-child(3){
     flex-basis: 15%;
 }
-/* Aquí se encuentra el logo, el texto y el formulario del correo */
+/* Aquí se encuentra el logo y el texto de la izquierda */
 
 .logo{
     width: 80px;
     margin-bottom: 30px;
 }
+/* Este codigo es para alinear los parrafos y el subtitulo*/
 .col h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
+/* Esto es para separar los parrafos y resaltar el correo*/
 .email-id{
     width: fit-content;
     border-bottom: 1px solid #ccc;
@@ -59,7 +61,7 @@ ul li a{
 text-decoration: none;
 color: #fff;
 }
-
+/* esta son las propiedades de alineacíon y resaltado del formulario*/
 form{
     padding-bottom: 15px;
     display: flex;
@@ -68,6 +70,7 @@ form{
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 }
+/* Esto es para el texto dentro del formulario*/
 form .far{
     font-size: 18px;
     margin-right: 10px;
@@ -79,6 +82,8 @@ form input{
     border: 0;
     outline: none;
 }
+
+/* Esta son las propiedades del boton*/
 form button{
     background: transparent;
     border: 0;
@@ -102,6 +107,8 @@ form button .fas{
     margin-right: 15px;
     cursor: pointer;
 }
+
+/*Esta es la linea del copyright*/
 hr{
     width: 90%;
     border: 0;
@@ -111,6 +118,8 @@ hr{
 .copyright{
     text-align: center;
 }
+
+/* Estas son las propiedades de posición de las barras  animadas*/
 .underline{
     width: 100%;
     height: 5px;

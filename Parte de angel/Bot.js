@@ -33,7 +33,7 @@ function getTime() {
     return time;
 }
 
-// Gets the first message
+// Esto es para obtener el primer mensaje dl bot 
 function firstBotMessage() {
     let firstMessage = "How's it going?"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
@@ -55,7 +55,7 @@ function getHardResponse(userText) {
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
 
-//Gets the text text from the input box and processes it
+//Esta función es para obtener el texto del input box y procesarlo
 function getResponse() {
     let userText = $("#textInput").val();
 
@@ -75,7 +75,7 @@ function getResponse() {
 
 }
 
-// Handles sending text via button clicks
+// Utilizar el boton para enviar textos 
 function buttonSendText(sampleText) {
     let userHtml = '<p class="userText"><span>' + sampleText + '</span></p>';
 
@@ -97,7 +97,7 @@ function heartButton() {
     buttonSendText("Heart clicked!")
 }
 
-// Press enter to send a message
+// Esto es para la función presionar enter para enviar un mensaje
 $("#textInput").keypress(function (e) {
     if (e.which == 13) {
         getResponse();
