@@ -58,7 +58,6 @@ font-size: 25px;
   max-width: 100%;
   height: auto;
 }
-
 .caja p {
   margin-top: 10px;
 }
@@ -68,7 +67,6 @@ font-size: 25px;
     padding: 20px;
     border: 2px solid #ccc;
 }
-
 .caja img {
     max-width: 100%;
     height: auto;

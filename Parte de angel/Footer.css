@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background: #eef8ff;
+}
 
 footer{
     width: 100%;
