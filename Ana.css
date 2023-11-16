@@ -5,15 +5,17 @@
     list-style: none;
     box-sizing: border-box;    
 }
-
+/* Este es el tipo de letra */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Estetica del nav */
 nav{
     background: white;
     height: 80px;
     width: 100%;
 }
+/* Estetica del logo */
 label.logo{
     color: #365b6d;
     font-size: 35px;
@@ -22,6 +24,7 @@ label.logo{
     font-weight: bold;
     padding-left: 70px;
 }
+/* Estetica de los demas botones del nav */
 nav ul{
     float:right;
     margin-right: 20px;
