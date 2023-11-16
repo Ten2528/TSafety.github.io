@@ -11,8 +11,8 @@ position: relative;top: -5px;
 .mover-abajo2{ position: relative; top: 80px;
   font-size: 45;
 }
-.p{ position: relative; top: 10px;
-  font-size: 25px; 
+.texto{ position: relative; top: 10px;
+  font-size: 30px; 
   text-align: justify;
   color: #ffffff;
   }
@@ -22,14 +22,14 @@ position: relative;top: -5px;
     background-size:  500px;
     min-height: 25px;
     font-size: 25px;
-    position: relative; top: -340px
+    position: relative; top: 30px
 }
 .sub{
     position: relative; top: -340px;
     font-style: normal;
 font-size: 25px;
-position: relative; top: -340px;
 }
+.total{position: relative;top: -340px;}
 
 .contenedor {
   display: flex;
@@ -40,9 +40,9 @@ position: relative; top: -340px;
   flex: 1;
   text-align: center;
   padding: 15px;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   margin: 25px; /* Aumenta el margen para una mayor separación */
-  position: relative;top: -150px;
+  position: relative;top: -30px;
 }
 
 .caja img {
