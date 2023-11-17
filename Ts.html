@@ -14,10 +14,11 @@
      <link rel="stylesheet" href="Parte de angel/Nav.css">
      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <!--CSS de los Sliders-->
-    <link rel="stylesheet" href="Parte de angel/slider.css">
-    <link rel="stylesheet" href="Parte de angel/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <!---Css de los slider -->
+     <link rel="stylesheet" href="Parte de angel/Slide.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--Js del slider-->
+    <script src="Parte de angel/Slide.js" defer></script>
     
     <!--CSS del Footer y Script-->
     <link rel="stylesheet" href="Parte de angel/Footer.css">
@@ -69,122 +70,88 @@
     </aside>
 </section>
 <!--Aquí sigue el slider-->
- <br><br>
-<div class="slide-container swiper">
-    <div class="slide-content">
-        <div class="card-wrapper swiper-wrapper">
-            <div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/Captura de pantalla 2023-10-13 192038.png" alt="imagen" class="card-img">
-                        </div>
-                </div>
-<!---Aquí se encuentran las respectivas cartas del slider y sus hipervinculos-->
+<div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <ul class="carousel">
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-祝-鹤槐-716276.jpg" alt="img" draggable="false"></div>
 
-                <div class="card-content">
-                    <h2 class="name">A quiet Problem</h2>
-                    <p class="description"> </p>   
-                    
-                    <button class="button" onclick="window.location.href='QuietProblem.html';">Read More</button>
-                </div>
-            </div><div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/Captura de pantalla 2023-10-13 192131.png" alt="imagen" class="card-img">
-                        </div>
-                </div>
+        <div class="card-content">
+          <h2 class="name">A quiet Problem</h2>
+          <p class="description"> </p>   
+          
+          <button class="button" onclick="window.location.href='QuietProblem';">Read More</button>
+      </div>
+        
+      </li>
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-yugal-srivastava-1067333.jpg" alt="img" draggable="false"></div>
 
-                <div class="card-content">
-                    <h2 class="name">Your best partner</h2>
-                    <p class="description"></p>   
-                    
-                    <button class="button"  onclick="window.location.href='oddie.html';">Read More</button>
-                </div>
-            </div><div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/Captura de pantalla 2023-10-13 192116.png" alt="imagen" class="card-img">
-                        </div>
-                </div>
+        <div class="card-content">
+          <h2 class="name">For a safe place</h2>
+          <p class="description"></p>   
+          
+          <button class="button" onclick="window.location.href='ProjectSafety';">Read More</button>
+      </div>
 
-                <div class="card-content">
-                    <h2 class="name">Our Values</h2>
-                    <p class="description"></p>   
-                    
-                    <button class="button"  onclick="window.location.href='OurValues.html';">Read More</button>
-                </div>
-            </div><div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/Captura de pantalla 2023-10-13 192100.png" alt="imagen" class="card-img">
-                        </div>
-                </div>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-fauxels-3182824.jpg" alt="img" draggable="false"></div>
+        
+        <div class="card-content">
+          <h2 class="name">Our Community</h2>
+          <p class="description"></p>   
+          
+          <button class="button" onclick="window.location.href='Chat';">Read More</button>
+      </div>
 
-                <div class="card-content">
-                    <h2 class="name">For a safe place </h2>
-                    <p class="description"></p>   
-                    
-                    <button class="button"  onclick="window.location.href='ProjectSafety';">Read More</button>
-                </div>
-            </div><div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/Screenshot__6_-removebg-preview.png" alt="imagen" class="card-img">
-                        </div>
-                </div>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-sora-shimazaki-5668876.jpg" alt="img" draggable="false"></div>
+        
+        <div class="card-content">
+          <h2 class="name">Your best parner</h2>
+          <p class="description"></p>   
+          
+          <button class="button" onclick="window.location.href='oddie';">Read More</button>
+      </div>
 
-                <div class="card-content">
-                    <h2 class="name">Our Community </h2>
-                    <p class="description"></p>   
-                    
-                    <button class="button"  onclick="window.location.href='Chat';">Read More</button>
-                </div>
-            </div><div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/pexels-julia-m-cameron-4144294.jpg" alt="imagen" class="card-img">
-                        </div>
-                </div>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-rdne-stock-project-8964249.jpg" alt="img" draggable="false"></div>
+        
+        <div class="card-content">
+          <h2 class="name">Our values</h2>
+          <p class="description"></p>   
+          
+          <button class="button" onclick="window.location.href='OurValues';">Read More</button>
+      </div>
 
-                <div class="card-content">
-                    <h2 class="name">Safety Premium</h2>
-                    <p class="description"></p>   
-                    
-                    <button class="button"  onclick="window.location.href='Pcard';">Read More</button>
-                </div>
-            </div><div class="card swiper-slide">
-                <div class="image-content">
-                    <span class="overlay"> </span>
-                        <div class="card-image">
-                            <img src="Imagenes/71c9347968497badbe2bd1c9603a098c.jpg" alt="imagen" class="card-img">
-                        </div>
-                </div>
-                <div class="card-content">
-                    <h2 class="name">Testimonials</h2>
-                    <p class="description"> </p>   
-                    
-                    <button class="button"  onclick="window.location.href='Testimonials';"> Read More</button>
-                </div>
-            </div>
-        </div>
-    </div>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-julia-m-cameron-4144294.jpg" alt="img" draggable="false"></div>
+        
+        <div class="card-content">
+          <h2 class="name">Safety premium</h2>
+          <p class="description">pipipipipiipip</p>   
+          
+          <button class="button" onclick="window.location.href='Pcard';">Read More</button>
+      </div>
+      </li>
 
-  <!--Aquí se encuentran las flechitas para mover el slider-->
-  <div class="swiper-button-next swiper-navBtn"></div>
-  <div class="swiper-button-prev swiper-navBtn"></div>
-  <div class="swiper-pagination"></div>
-
-</div>
-
-<section>
-
-</section>
+      <li class="card">
+        <div class="img"><img src="Imagenes/pexels-jopwell-2422280.jpg" alt="img" draggable="false"></div>
+        
+        <div class="card-content">
+          <h2 class="name">Testimonials</h2>
+          <p class="description">pipipipipiipip</p>   
+          
+          <button class="button" onclick="window.location.href='Testimonials';">Read More</button>
+      </div>
+      </li>
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
 
 <!----CHAT BOT -->
 
