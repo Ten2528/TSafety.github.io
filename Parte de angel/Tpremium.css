@@ -43,7 +43,6 @@
   align-items: center;
 }
 .time-content .time {
-  display: flex;
   align-items: center;
   flex-direction: column;
 }
