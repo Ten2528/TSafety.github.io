@@ -52,6 +52,9 @@ body {
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
+  position: relative;
+  top: 15px;
+  left: 115px;
 }
 .carousel::-webkit-scrollbar {
   display: none;
