@@ -54,7 +54,7 @@ body {
   scrollbar-width: none;
   position: relative;
   top: 15px;
-  left: 115px;
+  left: 55px;
 }
 .carousel::-webkit-scrollbar {
   display: none;
