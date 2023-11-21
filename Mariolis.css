@@ -1,48 +1,50 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #6e7f8f; /* Fondo gris */
+    background-color: #969696; /* Fondo gris */
     font-family:'Poppins', sans-serif;
 }
 
 
-div {
+
+.class1 {
     color: #ffffff;
+    text-align: center;
 }
+
 p{
-    color: #ffffff; 
-    font-size: 25px;
-    text-align: center; 
+ color: #ffffff; 
+ font-size: 25px;
+ text-align: center; 
 }
 
 img{
-  float: center;
-}
-
-hr{
-    text-align: center;
+   float: center;
 }
 
 div {
     color: #ffffff;
 }
-
+   /*css de oddie*/
+  /* Estilos para el contenedor del asistente */
 .assistant-container {
-    background-color: #929292;
+    background-color: #969696;
     color: #fff;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
-}
-p{
-    color: #ffffff; 
-    font-size: 25px;
-    text-align: center; 
-    
+    border-radius: 10px; 
   }
 
-  /* Estilos para el asistente virtual (imagen) */
+img{
+    margin-top: -60px;
+  }
 
+p{
+ color: #ffffff; 
+ font-size: 25px;
+ text-align: center; 
+  }
+  /* Estilos para el asistente virtual (imagen) */
   .assistant-avatar {
     width: 100px;
     height: 100px;
@@ -50,5 +52,15 @@ p{
     background-image: url('oddie,png'); /* Ruta de tu imagen */
     background-size: cover; /* Ajusta el tamaño de la imagen al círculo */
     background-position: center; /* Centra la imagen en el círculo */
-    margin: 30 auto 50px;
+    margin-top: -180px;
+  }
+
+  section{
+    background-color: #969696;
+    
+  }
+  ul{
+    color: #ffffff; 
+    font-size: 25px;
+    text-align: left; 
   }
