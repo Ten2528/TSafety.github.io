@@ -58,7 +58,7 @@ text-decoration: none;
 color: #fff;
 }
 
-form{
+form.Anota{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -66,24 +66,24 @@ form{
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 }
-form .far{
+form .far.Anota{
     font-size: 18px;
     margin-right: 10px;
 }
-form input{
+form input .Anota{
     width: 100%;
     background: transparent;
     color: #ccc;
     border: 0;
     outline: none;
 }
-form button{
+form button .Anota{
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-form button .fas{
+form button .fas .Anota{
     font-size: 16px;
     color: #ccc;
 }
