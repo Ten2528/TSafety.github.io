@@ -70,20 +70,20 @@ form .far.Anota{
     font-size: 18px;
     margin-right: 10px;
 }
-form input .Anota{
+form input .Anpt{
     width: 100%;
     background: transparent;
     color: #ccc;
     border: 0;
     outline: none;
 }
-form button .Anota{
+form button{
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-form button .fas .Anota{
+form button .fas{
     font-size: 16px;
     color: #ccc;
 }
