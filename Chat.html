@@ -17,7 +17,7 @@
 
 </head>
 <body>
-
+<!---Aquí se encuentra el nav -->
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -32,11 +32,13 @@
         <li> <a href="Download.html">Download</a></li>
        </ul>
     </nav>
-
+ <!---Continuamos con el chat de la comunidad -->
+ <!---Este son los botones para cambiar de persona -->
     <div class="person-selector">
         <button class="button person-selector-button active-person" id="john-selector">John</button>
         <button class="button person-selector-button" id="jane-selector">Jane</button>
      </div>
+<!---Aquí se encuentra el chat y las etiquetas de John-->
      <div class="chat-container">
         <h2 class="chat-header">John chatting...</h2>
 
@@ -47,68 +49,76 @@
             <div class="message-timestamp">10:30 AM</div>
              
         </div>
+
+<!---Estos son las etiquetas y mensajes de jane -->
         <div class="message gray-bg">
             <div class="message-sender">Jane</div>
             <div class="message-text">Not much, just living the dream. How about you?</div>
             <div class="message-timestamp">10:35 AM</div>
         </div>
         </div>
-
+<!----Aquí se encuentra La barra de entrada de texto y el boton para limpiar el chat-->
         <form class="chat-input-form">
             <input type="text" class="chat-input" required placeholder="Type here, John..." />
             <button type="submit" class="button send-button">Send</button>
         </form>
         <button class="button clear-chat-button"> Clear Chat</button>
     </div>
-
+<!---Script del chat--->
     <script src="Parte de angel/Chat.js"></script>
 
     <!--Footer-->
-<br>
-<footer>
-    <div class="row">
-        <div class="col">
-            <img src="logo.png" class="logo">
-            <p>Total safety is a company founded in 2023 by a group of friends
-                 with the dream of making the digital world a safe, peaceful and effective
-                 environment for the development of the next generations.</p>
-        </div>
-        <div class="col">
-            <h3>Office <div class="underline"><span></span></div> </h3>
-            <p>ITPL Road</p>
-            <p>Whitefield , Bangalore</p>
-            <p> La Chorrera, PIN 560066, Panamá</p>
-            <p class="email-id">angel.ten2025@mottach.superate.org.pa</p>
-            <h4>+507 - 6498-8168</h4>
-        </div>
-        <div class="col">
-            <h3>Links <div class="underline"><span></span></div></h3>
-            <ul>
-                <li> <a href="Ts.html">Home</a></li>
-                <li> <a href="AboutUs.html">About Us</a></li>
-                <li> <a href="Contactus.html">Contact Us</a></li>
-                <li> <a href="Scammers.html">Scammers</a></li>
-                <li> <a href="Download.html">Download</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h3>Newsletter <div class="underline"><span></span></div> </h3>
-            <form>
-                <i class="far fa-envelope"></i>
-                <input type="email" placeholder="Enter your email id" required>
-                <button type="submit"><i class="fas fa-arrow-right"></i></button>
-            </form>
-            <div class="social-icons">
-                <a href="https://www.pinterest.com/angelten2025/"><i class="fab fa-pinterest"></i> </a>
-                <a href="https://www.instagram.com/superatemotta.ch/"><i class="fab fa-instagram"></i> </a> 
-                <a href="https://chat.whatsapp.com/BY26lOHAB4I3xv9P6EOzOp"><i class="fab fa-whatsapp"></i> </a>
-                <a href="https://github.com/Ten2528"><i class="fab fa-github-alt"></i></a>
+    <br>
+    <footer>
+    <!----Este es el inicio de la fila con sus respectivas columnas en cada sección de información-->
+        <div class="row">
+            <div class="col">
+                <img src="logo.png" class="logo">
+                <p>Total safety is a company founded in 2023 by a group of friends
+                     with the dream of making the digital world a safe, peaceful and effective
+                     environment for the development of the next generations.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div> </h3>
+                <p>ITPL Road</p>
+                <p>Via españa , Panamá</p>
+                <p> La Chorrera, PIN 560066, Panamá</p>
+                <p class="email-id">angel.ten2025@mottach.superate.org.pa</p>
+                <h4>+507 - 6498-8168</h4>
+            </div>
+    <!---Aquí se encuentran hipervinculos a secciones del sitio web-->        
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="AboutUs.html">About Us</a></li>
+                    <li> <a href="Contactus.html">Contact Us</a></li>
+                    <li> <a href="Scammers.html">Scammers</a></li>
+                    <li> <a href="Download.html">Download</a></li>
+                </ul>
+            </div>
+    
+    <!---Aquí se encuentra una sección de correo para recibir información acerca de la pagina-->        
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div> </h3>
+                <form class="Anota">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+    <!---Aquí se encuentran los hipervinculos a las redes de total safety-->            
+                <div class="social-icons">
+                    <a href="https://www.pinterest.com/angelten2025/" target="_blank"><i class="fab fa-pinterest"></i> </a>
+                    <a href="https://www.instagram.com/superatemotta.ch/" target="_blank"><i class="fab fa-instagram"></i> </a> 
+                    <a href="https://chat.whatsapp.com/BY26lOHAB4I3xv9P6EOzOp" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+                    <a href="https://github.com/Ten2528" target="_blank"><i class="fab fa-github-alt"></i></a>
+                    
+                </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <p class="copyright">Foundation Safety copyright © 2023 - All Rights Reserved</p>
-</footer>
+        <hr>
+        <p class="copyright">Foundation Safety copyright © 2023 - All Rights Reserved</p>
+    </footer>    
     
 </body>
 </html>
