@@ -78,6 +78,7 @@ font-size: 16px;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        list-style: none;
     }
     nav ul li{
         display: block;
