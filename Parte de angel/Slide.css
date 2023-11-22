@@ -6,18 +6,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+/* Estas son las propiedades generales del slider*/
 body {
-  
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: linear-gradient(to left top, #031A9A, #8B53FF);
 }
+/* Seguimos con las propiedades de la carta*/
+/* Este son las propiedades del tamaño del fondo de la carta*/
 .wrapper {
   max-width: 1100px;
   width: 100%;
   position: relative;
 }
+/* Aquí esta las propiedades de las flechitas su posición y tamaño*/
 .wrapper i {
   top: 50%;
   height: 50px;
@@ -33,6 +36,7 @@ body {
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
+
 .wrapper i:active{
   transform: translateY(-50%) scale(0.85);
 }
@@ -42,6 +46,8 @@ body {
 .wrapper i:last-child{
   right: -22px;
 }
+/* Estas son las propiedades de posicionamiento de las cartas*/
+
 .wrapper .carousel{
   display: grid;
   grid-auto-flow: column;
@@ -56,6 +62,7 @@ body {
   top: 15px;
   left: 55px;
 }
+/* Aquí se encuentran las propiedades de transición de una card a otra*/
 .carousel::-webkit-scrollbar {
   display: none;
 }
@@ -70,11 +77,14 @@ body {
   cursor: grab;
   user-select: none;
 }
+/* Este codigo su trabajo es coloca el borde completamente alrededor de la imagen*/
 .carousel :where(.card, .img) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* Estas son las propiedades del fondo y dimensiones de las cartas*/
+/* Nos decantamos por el flex direction column ya que resalta mejor los elemento dentro del card*/
 .carousel .card {
   scroll-snap-align: start;
   height: 342px;
@@ -85,12 +95,14 @@ body {
   flex-direction: column;
   border-radius: 8px;
 }
+/* Estas son las propiedades del borde que rodea la imagen*/
 .carousel .card .img {
   background: #8B53FF;
   height: 148px;
   width: 148px;
   border-radius: 50%;
 }
+/* Estas son las propiedades generales de las imagenes de la carta*/
 .card .img img {
   width: 140px;
   height: 140px;
@@ -98,6 +110,7 @@ body {
   object-fit: cover;
   border: 4px solid #fff;
 }
+/* Estos codigos corresponden a los elementos de texto dentro del wrapper*/
 .carousel .card h2 {
   font-weight: 500;
   font-size: 1.56rem;
@@ -107,14 +120,14 @@ body {
   color: #6A6D78;
   font-size: 1.31rem;
 }
-
-
+/* Aquí se encuentran las propiedades generales de la información dentro de la card*/
 .card-content{
   display: flex;
   flex-direction: column;
   padding: 10px 14px;
   align-items: center;
 }
+/* Estas son las propiedades de mi amigo el button*/
 .button{
     border: none;
     font-size: 16px;
@@ -129,7 +142,8 @@ body {
 .button:hover{
     background: #265DF2;
 }
-
+/* Usamos el media screen para que cuando se disminuria el grosor de la pagina
+no desaparezcan completamente y dependiendo del ancho de la pagina aparezcan uno o dos*/
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
