@@ -47,7 +47,7 @@ a.active,a:hover{
     background: #e4e4e4;
     transition: .5s;
 }
-
+/*Aquí se encuentran las propiedades de posición y estilo del icono del menu*/
 .checkbtn{
     font-size: 30px;
     color: gray;
@@ -57,6 +57,7 @@ a.active,a:hover{
     cursor: pointer;
     display: none;
 }
+/*Decidimos colocar una barra horizontal sí en el futuro debemos hacer un sitio web multiplataformas*/
 #check{
     display: none;
 }
@@ -73,6 +74,7 @@ font-size: 16px;
     .checkbtn{
         display: block;
     }
+    /*Estas son las propiedades de posición y estilo del bar*/
     ul{
         position:fixed;
         width: 100%;
