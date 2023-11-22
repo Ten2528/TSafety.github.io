@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/* Aquí esta el container de la carte incluyendo el laso azul de oferta especial*/
 .container {
     width: 460px;
     padding: 40px;
@@ -28,7 +28,7 @@ body {
     left: 350px;
     top: 10px;
 }
-
+/* Aquí esta el estilo de los encabezados de las cartas */
 .container .title {
     font-size: 2rem;
     color: #333;
@@ -44,13 +44,13 @@ body {
 .container span {
     font-size: 1.2rem;
 }
-
+/* Y este es el estilo del parrafo de la carta*/
 .container .description {
     color: #3b3b3b;
     font-size: 1.1rem;
     margin: 20px 0 20px;
 }
-
+/* Aquí esta la posición del button y su estilo*/
 .container .offer {
     display: block;
     color: #555;
@@ -71,11 +71,11 @@ body {
     font-weight: 500;
     transition: 0.2s ease;
 }
-
+/*Decidimos poner un hover distinto para un mejor contraste*/
 .subscribe-button:hover {
     background: #ff4d4d;
 }
-
+/*Esta es la pocisión del ribbon*/
 .ribbon-wrap {
     width: 150px;
     height: 150px;
@@ -84,7 +84,7 @@ body {
     left: -10px;
     pointer-events: none;
 }
-
+/* Este es el estilo del ribbon*/
 .ribbon {
     width: 230px;
     font-size: 0.918rem;
