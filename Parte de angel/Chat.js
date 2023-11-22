@@ -1,3 +1,4 @@
+//Aquí se encuentran las variables 
 const johnSelectorBtn = document.querySelector('#john-selector')
 const janeSelectorBtn = document.querySelector('#jane-selector')
 const chatHeader = document.querySelector('.chat-header')
@@ -23,7 +24,7 @@ window.onload = () => {
 }
 
 let messageSender = 'john'
-
+// Esta función es para cambiar el tag y header de john a jane y viceversa 
 const updateMessageSender = (name) => {
     messageSender = name
     chatHeader.innerText = `${messageSender} chatting...`
@@ -44,6 +45,7 @@ const updateMessageSender = (name) => {
 johnSelectorBtn.onclick = () => updateMessageSender('John')
 janeSelectorBtn.onclick = () => updateMessageSender('Jane')
 
+// Aquí se encuentra la función para crear un nuevo mensaje
 const sendMessage = (e) => {
   e.preventDefault()
 
@@ -61,7 +63,7 @@ const sendMessage = (e) => {
   chatInputForm.reset()
   chatMessages.scrollTop = chatMessages.scrollHeight
 }
-
+//Aquí se encuentra la función para enviar el mensaje 
 chatInputForm.addEventListener('submit', sendMessage)
 
 clearChatBtn.addEventListener('click',  () => {

@@ -10,6 +10,8 @@
 body{
     min-height: 100vh;
 }
+
+/* Aquí se encuentra la estructura del wrapper */
 .cookies{
     position: fixed;
     bottom: 50px;
@@ -21,6 +23,8 @@ body{
     padding: 15px 25px 22px;
     transition: right 0.3 ease;
 }
+
+/* Estas son las propiedades del header y la posición al mostrarse el mensaje del cookies*/
 .cookies.show{
     right: 20px;
 }
@@ -37,6 +41,7 @@ header h2 {
     color: #4070F4;
     font-weight: 500;
 }
+/* Aquí se encuentra los estilos y la posición de la información */
 .wrapper .data {
     margin-top: 16px;
 }
@@ -52,6 +57,7 @@ text-decoration: none;
 .data p a:hover{
 text-decoration: underline;
 }
+/* Estas son las propiedades de posición de los botones*/
 .cookies .buttons{
     margin-top: 16px;
     width: 100%;
@@ -59,6 +65,7 @@ text-decoration: underline;
     align-items: center;
     justify-content: space-between;
 }
+/* Y estas son las propiedades de estilo del boton*/
 .buttons .button{
    border: none;
    color: #fff;

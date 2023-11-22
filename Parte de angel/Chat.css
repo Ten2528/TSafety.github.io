@@ -1,12 +1,11 @@
-
-
+/* Estas son las propiedades generales del button*/
 .button {
     border: none;
     padding: 0.625em;
     border-radius: 0.5em;
     cursor: pointer;
 }
-
+/* Aquí se encuentra el hover y el active al tocar el button*/
 .button:hover {
     filter: brightness(0.9);
 }
@@ -14,7 +13,7 @@
 .button:active {
     transform: translateY(2px);
 }
-
+/*Esta son las propiedades de posición del botton de seleccíon de persona*/
 .person-selector {
     display: flex;
     justify-content: center;
@@ -22,7 +21,7 @@
     margin: 3em auto 1em;
     max-width: 40em;
 }
-
+/*Y esta es la parte estetica y el active del buttom*/
 .person-selector-button {
     width: 100%;
     background-color: #15202b;
@@ -34,7 +33,7 @@
     background: #08529d;
     box-shadow: 0 0 0.5em 0.1em #c3c3c333;
 }
-
+/* Estas son las propiedades generales del container del chat*/
 .chat-container {
     background: #15202b;
     font-family: 'Roboto', sans-serif;
@@ -45,7 +44,7 @@
     height: 37.5em;
     box-shadow: 0 0 1.25em 0.5em #c3c3c333;
 }
-
+/* Estas son las propiedades del header colado*/
 .chat-header {
     margin-bottom: 1em;
     color: #fff;
@@ -55,7 +54,7 @@
     font-size: 1.25em;
     font-weight: bold;
 }
-
+/* Este es el ancho del globito alrededor del texto*/
 .chat-messages {
     height: 23em;
     overflow-y: scroll;
@@ -64,7 +63,7 @@
 .chat-messages::-webkit-scrollbar {
     display: none;
 }
-
+/*Estas son las propiedades generales del texto del mensaje*/
 .message {
     padding: 0.625em;
     border-radius: 1em;
@@ -78,18 +77,18 @@
     font-weight: bold;
     margin-bottom: 0.31em;
 }
-
+/* El word-wrap es para evitar un overflow en el texto al momento de colocar mucho*/
 .message-text {
     font-size: 1em;
     margin-bottom: 0.31em;
     word-wrap: break-word;
 }
-
+/* Este es la posición del tiempo del mensaje*/
 .message-timestamp {
     font-size: 0.75em;
     text-align: right;
 }
-
+/* Estos son los colores del globo de texto*/
 .blue-bg {
     background-color: #1c9bef;
 }
@@ -97,6 +96,7 @@
 .gray-bg {
     background-color: #3d5365;
 }
+/* Estas son las propiedas general de la barra del texto*/
 
 .chat-input-form {
     display: flex;
@@ -114,14 +114,14 @@
     font-size: 1em;
     flex-grow: 1;
 }
-
+/* Estas son las propiedades esteticas del boton de envio*/
 .send-button {
     background-color: #1c9bef;
     color: #fff;
     font-size: 1em;
     font-weight: bold;
 }
-
+/* Aquí esta las propiedades de posición del button de vaciar el chat*/
 .clear-chat-button {
     display: block;
     margin: 2.5em auto;
