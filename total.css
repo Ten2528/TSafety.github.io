@@ -23,6 +23,7 @@ position: relative;top: -5px;
     font-size: 25px;
     position: relative; top: 30px;
     position: relative;left: 5px;
+    margin-left: 3%;
 }
 .sub{
     position: relative; top: -340px;
@@ -62,3 +63,8 @@ font-size: 25px;
     max-width: 100%;
     height: auto;
 }
+
+.texttt{
+  margin-right: 6%;
+  font-size: 140%;
+  }
