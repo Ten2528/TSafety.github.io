@@ -102,21 +102,25 @@ body{
   text-align: center;
 }
 .box-title{
-  margin-left: 360px;
-  height: 50px;
-  width: 600px;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(19, 89, 93, 0.4);
-}
+    height: 50px;
+    width: 600px;
+    position:relative;
+    top:25px;
+    left:400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(19, 89, 93, 0.4);
+  }
 
-.scam-anti {
+  .scam-anti {
     margin-top: 40px;
     margin-left: 530px;
     text-align: center;
-    height: 50px;
-    width: 60px;
-    left: 30px;
+    height: fit-content;
+    width: 100px;
+    height: 100px;
+    position:relative;
+     left:150px;
 }
 .lets {
   color: rgb(52, 86, 198);
@@ -210,12 +214,14 @@ body{
     margin-top: 90px;
     color: rgb(52, 86, 198);
   }
-.fake1 {
-    margin-left: 370px;
-    height: fit-content;
-    width: 35px;
-    left: 40px;
-}
+  .fake1 {
+    position:relative;
+    top: 25px;
+    left: 175px;
+    width: 160 px;
+    height: 500px;
+      margin-left: 370px;
+  }
 .what-fake {
     margin-left: 300px;
     margin-top: 90px;
