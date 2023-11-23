@@ -1,7 +1,8 @@
 body {
   font-size: 18px;
-  background-color: #a6a6a6;
+  background-color: #A6A6A6;
   color:white
+
   
 }
 aside{
@@ -63,4 +64,10 @@ font-size: medium;
 }
 .tamaño{
 font-size: 18px;
+}
+
+.brss{
+margin-bottom: 0%;
+margin-top: 100%;
+width: 100%;
 }
