@@ -9,7 +9,7 @@
     position: relative;
     min-height: 100vh;
     z-index: 0;
-    background: rgb(181, 224, 236);
+    background: #365b6d;
     padding: 30px;
     justify-content: center;
     display: grid;
