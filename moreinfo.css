@@ -114,6 +114,9 @@ body{
     margin-top: 40px;
     margin-left: 530px;
     text-align: center;
+    height: fit-content;
+    position: relative;
+    left: 30px;
 }
 .lets {
   color: rgb(52, 86, 198);
