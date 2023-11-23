@@ -73,13 +73,13 @@ body {
     transition: trasform 0.5s;
  }
  .card1{
-    background-image: url(seg.png);
+    background-image: url(Imagenes/seg.png);
  }
  .card2{
-    background-image: url(huelaa.png);
+    background-image: url(imagenes/huelaa.png);
  }
  .card3{
-    background-image: url(equipo.png);
+    background-image: url(Imagenes/equipo.png);
  }
  .card:hover{
     transform: translateY(-10px);
