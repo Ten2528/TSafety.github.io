@@ -115,7 +115,7 @@ body{
     margin-left: 530px;
     text-align: center;
     height: fit-content;
-    position: relative;
+    width: 20px;
     left: 30px;
 }
 .lets {
@@ -212,6 +212,9 @@ body{
   }
 .fake1 {
     margin-left: 370px;
+    height: fit-content;
+    width: 35px;
+    left: 40px;
 }
 .what-fake {
     margin-left: 300px;
