@@ -6,25 +6,25 @@ const carouselChildrens = [...carousel.children];
 
 let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
 
-// Get the number of cards that can fit in the carousel at once
+// Aquí se obtiene el numero de tarjetas que caben en el carrusel a la vez
 let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 
-// Insert copies of the last few cards to beginning of carousel for infinite scrolling
+// Se inserta copias de las últimas cartas al principio del carrusel para un desplazamiento infinito
 carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
     carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
 });
 
-// Insert copies of the first few cards to end of carousel for infinite scrolling
+// Aquí es el contrario se Inserta copias de las primeras cartas al final del carrusel para un desplazamiento infinito
 carouselChildrens.slice(0, cardPerView).forEach(card => {
     carousel.insertAdjacentHTML("beforeend", card.outerHTML);
 });
 
-// Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
+//  Aquí Se desplaza el carrusel de manera en la posición adecuada para ocultar las primeras cartas duplicadas 
 carousel.classList.add("no-transition");
 carousel.scrollLeft = carousel.offsetWidth;
 carousel.classList.remove("no-transition");
 
-// Add event listeners for the arrow buttons to scroll the carousel left and right
+//  esto es para los botones de flecha para desplazar el carrusel a izquierda y derecha
 arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
         carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
@@ -34,14 +34,14 @@ arrowBtns.forEach(btn => {
 const dragStart = (e) => {
     isDragging = true;
     carousel.classList.add("dragging");
-    // Records the initial cursor and scroll position of the carousel
+    // Se registra la posición inicial del cursor y de desplazamiento del carrusel 
     startX = e.pageX;
     startScrollLeft = carousel.scrollLeft;
 }
 
 const dragging = (e) => {
-    if(!isDragging) return; // if isDragging is false return from here
-    // Updates the scroll position of the carousel based on the cursor movement
+    if(!isDragging) return; // si el isDragging es falso volver aquí
+    // Esta función a7ctualiza la posición de desplazamiento del carrusel en función del movimiento del cursor.
     carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
 }
 
@@ -51,27 +51,27 @@ const dragStop = () => {
 }
 
 const infiniteScroll = () => {
-    // If the carousel is at the beginning, scroll to the end
+    // Sí el carrusel está al principio, desplazar hasta el final 
     if(carousel.scrollLeft === 0) {
         carousel.classList.add("no-transition");
         carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
         carousel.classList.remove("no-transition");
     }
-    // If the carousel is at the end, scroll to the beginning
+    // Sí el carrusel esta al final, desplazar hasta el principio
     else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
         carousel.classList.add("no-transition");
         carousel.scrollLeft = carousel.offsetWidth;
         carousel.classList.remove("no-transition");
     }
 
-    // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+    //  Aquí se borra  el tiempo de espera existente y comienza  la reproducción automática si el mouse no se cierne sobre el carrusel
     clearTimeout(timeoutId);
     if(!wrapper.matches(":hover")) autoPlay();
 }
 
 const autoPlay = () => {
-    if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
-    // Autoplay the carousel after every 2500 ms
+    if(window.innerWidth < 800 || !isAutoPlay) return; // Esto Se Devuelve si la ventana es menor que 800 o isAutoPlay es falso
+    //  Aquí es la reproducción automática del carrusel cada 2500 ms
     timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
 }
 autoPlay();

@@ -7,7 +7,7 @@ let secValue = 11,
   minValue = 2,
   hourValue = 2,
   dayValue = 9;
-
+// Esta en la función del tiempo*/
 const timeFunction = setInterval(() => {
   secValue--;
 

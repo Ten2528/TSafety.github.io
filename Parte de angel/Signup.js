@@ -1,9 +1,9 @@
-// Selecting form and input elements
+// Esta es la seleccion de los elementos del form y input 
 const form = document.querySelector("form");
 const passwordInput = document.getElementById("password");
 const passToggleBtn = document.getElementById("pass-toggle-btn");
 
-// Function to display error messages
+// Funcion para mostrar los mensajes de error 
 const showError = (field, errorText) => {
     field.classList.add("error");
     const errorElement = document.createElement("small");
@@ -12,31 +12,31 @@ const showError = (field, errorText) => {
     field.closest(".form-group").appendChild(errorElement);
 }
 
-// Function to handle form submission
+// Esta es la funcion para gestionar el envio del formulario
 const handleFormData = (e) => {
     e.preventDefault();
 
-    // Retrieving input elements
+    // Recuperación de elementos de entradas 
     const fullnameInput = document.getElementById("fullname");
     const emailInput = document.getElementById("email");
     const dateInput = document.getElementById("date");
     const genderInput = document.getElementById("gender");
 
-    // Getting trimmed values from input fields
+    //Esta funcion creo que es para obtener los valore recortados de los campos de entrada
     const fullname = fullnameInput.value.trim();
     const email = emailInput.value.trim();
     const password = passwordInput.value.trim();
     const date = dateInput.value;
     const gender = genderInput.value;
 
-    // Regular expression pattern for email validation
+    // Aquí esta el patron para la validación del correo electronico
     const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-    // Clearing previous error messages
+    // Esto es para borrar mensajes anteriores de error
     document.querySelectorAll(".form-group .error").forEach(field => field.classList.remove("error"));
     document.querySelectorAll(".error-text").forEach(errorText => errorText.remove());
 
-    // Performing validation checks
+  // Estas son las comprabaciones de validación
     if (fullname === "") {
         showError(fullnameInput, "Enter your full name");
     }
@@ -53,19 +53,19 @@ const handleFormData = (e) => {
         showError(genderInput, "Select your gender");
     }
 
-    // Checking for any remaining errors before form submission
+    // Esta es la comprobación de los errores restantes antes de enviar el formulario
     const errorInputs = document.querySelectorAll(".form-group .error");
     if (errorInputs.length > 0) return;
 
-    // Submitting the form
+    // Envio del formulario 
     form.submit();
 }
 
-// Toggling password visibility
+// Cambiar la visibilidad de la contraseña
 passToggleBtn.addEventListener('click', () => {
     passToggleBtn.className = passwordInput.type === "password" ? "fa-solid fa-eye-slash" : "fa-solid fa-eye";
     passwordInput.type = passwordInput.type === "password" ? "text" : "password";
 });
 
-// Handling form submission event
+// Este es el evento de envió de formulario
 form.addEventListener("submit", handleFormData);

@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family:'Poppins', sans-serif; 
 }
+/* Estas son las propiedades generales de posición del slider*/
 .container2{
     height: 100vh;
     width: 100%;
@@ -15,6 +16,8 @@
     justify-content: center;
     background-color: #e3f2fd;
 }
+/* Decidimos ponerle un overflow hidden para que se viera mas moderno*/
+/* Estas son las propiedades del input del card*/
 .testimonial{
     position: relative;
     max-width: 900px;
@@ -22,12 +25,14 @@
     padding: 50px 0;
     overflow: hidden;
 }
+/* Estas son las propiedades de la imagen del usuario*/
 .testimonial .image{
     height: 170px;
     width: 170px;
     object-fit: cover;
     border-radius: 50%;
 }
+/* Aquí se encuentran las propiedades de los elementos de la cartas*/
 .testimonial .slide{
     display: flex;
     align-items: center;
@@ -35,6 +40,7 @@
     flex-direction: column;
     row-gap: 30px;
 }
+/* Aquí se encuentra la alineación del parrafo*/
 .slide p{
     text-align: center;
     padding: 0 100px;
@@ -42,10 +48,12 @@
     font-weight: 500;
     color: #333;
 }
+/* Estas son las propiedades del icono debajo del parrafo*/
 .slide .quote-icon{
     font-size: 30px;
     color: #4070f4;
 }
+/* Aquí se encuentran las propiedades del nombre y trabajon del usuario*/
 .slide .details{
     display: flex;
     flex-direction: column;
@@ -78,12 +86,14 @@
     font-size: 20px;
     color: #fff;
 }
+/* Estas son las propiedades del bullet debajo de los detalles del slider*/
 .swiper-pagination-bullet{
     background-color: rgba(0, 0, 0, 0.8);
 }
 .swiper-pagination-bullet-active{
     background-color: #4070f4;
 }
+/* Decidimos colocar un media screen para que no se deformara tanto la pagina*/
 @media screen and (max-width: 768px) {
     .slide p{
         padding: 0 20px;

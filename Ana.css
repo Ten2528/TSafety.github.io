@@ -7,6 +7,7 @@ body {
     text-align: center;
 }
 
+/* Ajustepara el titulo principal y las imagenes */
 header {
     background-color: #a8cce9;
     color: #d3d0da;
@@ -16,6 +17,7 @@ header {
     justify-content: center;
 }
 
+/*Ajuste para el titulo principal */
 h1 {
     color: #4d3535;
     font-size: 24px;
@@ -27,6 +29,7 @@ img {
     max-width: 100px;
 }
 
+/*Ajuste al titulo secundario */
 section {
     padding: 30px;
     margin: 30px;
@@ -56,7 +59,7 @@ body {
     width: 50%; /* Ocupa el 50% del ancho del contenedor principal */
 }
 
-
+/*Ajuste para las imagenes*/
  .card{
     width: 200px;
     height: 130px;
