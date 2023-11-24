@@ -118,7 +118,10 @@ body {
 img{
    float: center;
    height: 200px;
-   
+
+}
+h1{
+    text-align: center;
 }
 
 div {
