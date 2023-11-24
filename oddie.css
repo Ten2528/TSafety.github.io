@@ -12,4 +12,15 @@ oddie{
     height: 200px;
     align-items: center;
     width: 200px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+text{
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
 }
