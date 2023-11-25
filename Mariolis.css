@@ -98,7 +98,7 @@ font-size: 16px;
 }
 
 
-body {
+oddie {
     margin: 0;
     padding: 0;
     background-color: #969696; /* Fondo gris */
@@ -106,7 +106,8 @@ body {
 
 .container {
     color: #ffffff;
-    text-align: center;
+    position: relative;
+    top: 20px;
 }
 
 .wrapper{
@@ -116,15 +117,23 @@ body {
 }
 
 img{
-   float: center;
-   height: 200px;
-
-}
-h1{
-    text-align: center;
-}
-
-div {
-    color: #ffffff;
-}
+    float: center;
+     height:200px;
+     position:relative;
+     left:425px;
+     top:20px
+ }
  
+ div {
+     color: #ffffff;
+ }
+ h1{
+     position:relative;
+     left:500px;
+     
+ }
+ p{
+     position:relative;
+     top: 40px;
+     left:50px;
+ }
